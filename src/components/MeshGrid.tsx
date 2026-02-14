@@ -1,9 +1,7 @@
-import type { Course } from '../lib/meshApi';
-import SubjectButton from './SubjectButton';
+import { useMesh } from "../context/MeshContext";
 
-function bounds(courses: Course[]) {
-  let maxRow = 0,
-    maxCol = 0;
+function bounds(courses: { grid: { row: number | null; col: number | null } }[]) {
+  let maxRow = 0, maxCol = 0;
   for (const c of courses) {
     if (c.grid.row) maxRow = Math.max(maxRow, c.grid.row);
     if (c.grid.col) maxCol = Math.max(maxCol, c.grid.col);
@@ -11,55 +9,28 @@ function bounds(courses: Course[]) {
   return { maxRow, maxCol };
 }
 
-export function MeshGrid({
-  courses,
-  passed,
-  onToggle,
-}: {
-  courses: Course[];
-  passed: Record<string, boolean>;
-  onToggle: (id: string) => void;
-}) {
+export function MeshGrid() {
+  const { courses } = useMesh();
+  if (!courses) return null;
+
   const { maxRow, maxCol } = bounds(courses);
 
   return (
     <div
-      className="grid gap-2"
+      className="overflow-auto grid gap-3 bg-[#818181]/15 rounded-[55px] p-6"
       style={{
-        gridTemplateRows: `repeat(${maxRow}, minmax(100px, 1fr))`,
-        gridTemplateColumns: `repeat(${maxCol}, minmax(180px, 250px))`,
+        gridTemplateRows: `repeat(${maxRow}, minmax(85px, 1fr))`,
+        gridTemplateColumns: `repeat(${maxCol}, minmax(200px, 1fr))`,
       }}
     >
-      {courses.map((c) => {
-        const isPassed = !!passed[c.id];
-        return (
-          <SubjectButton
-            key={c.id}
-            gridRow={c.grid.row ?? 1}
-            gridColumn={c.grid.col ?? 1}
-            c={c}
-          />
-          // <button
-          //   key={c.id}
-          //   onClick={() => onToggle(c.id)}
-          //   className={[
-          //     "rounded-xl border p-2 text-left transition",
-          //     isPassed ? "bg-green-100 border-green-300" : "bg-white hover:shadow",
-          //   ].join(" ")}
-          //   style={{
-          //     gridRow: c.grid.row ?? undefined,
-          //     gridColumn: c.grid.col ?? undefined,
-          //   }}
-          // >
-          //   <div className="text-xs opacity-70">{c.code ?? "CPI"} · {c.unit}</div>
-          //   <div className="text-sm font-semibold leading-tight">{c.name}</div>
-          //   <div className="text-xs opacity-70">
-          //     {c.credits ?? "-"} créditos
-          //     {c.approved_count_requirement ? ` · req: ${c.approved_count_requirement} aprobadas` : ""}
-          //   </div>
-          // </button>
-        );
-      })}
+      {courses.map((c) => (
+        <div key={c.id} style={{ gridRow: c.grid.row ?? 1, gridColumn: c.grid.col ?? 1 }}
+          className="">
+          <SubjectButton c={c} />
+        </div>
+      ))}
     </div>
   );
 }
+
+import SubjectButton from "./SubjectButton";

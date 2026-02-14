@@ -1,82 +1,75 @@
-import { useEffect, useMemo, useState } from "react";
-import { fetchIndex, fetchMalla, type Course } from "./lib/meshApi";
-import { resolveGridCollisions } from "./lib/resolveGrid";
+import { useMemo } from "react";
+import { useMesh } from "./context/MeshContext";
 import { MeshGrid } from "./components/MeshGrid";
 
-function storageKey(career: string) {
-  return `malla:passed:${career}`;
+function bounds(courses: { grid: { row: number | null; col: number | null } }[]) {
+  let maxRow = 0, maxCol = 0;
+  for (const c of courses) {
+    if (c.grid.row) maxRow = Math.max(maxRow, c.grid.row);
+    if (c.grid.col) maxCol = Math.max(maxCol, c.grid.col);
+  }
+  return { maxRow, maxCol };
 }
 
 export default function App() {
-  const [index, setIndex] = useState<{ code: string; name: string }[]>([]);
-  const [career, setCareer] = useState("CI013");
-  const [courses, setCourses] = useState<Course[] | null>(null);
-  const [passed, setPassed] = useState<Record<string, boolean>>({});
-
-  useEffect(() => {
-    fetchIndex().then(setIndex).catch(console.error);
-  }, []);
-
-  useEffect(() => {
-    setCourses(null);
-    fetchMalla(career)
-      .then((data) => {
-        const fixed = resolveGridCollisions(data);
-        setCourses(fixed);
-        const raw = localStorage.getItem(storageKey(career));
-        setPassed(raw ? JSON.parse(raw) : {});
-      })
-      .catch(console.error);
-  }, [career]);
-
-  // useEffect(() => {
-  //   setCourses(null);
-  //   fetchMalla(career).then((data) => {
-  //     setCourses(data);
-  //     const raw = localStorage.getItem(storageKey(career));
-  //     setPassed(raw ? JSON.parse(raw) : {});
-  //   }).catch(console.error);
-  // }, [career]);
-
-  function toggle(id: string) {
-    setPassed((prev) => {
-      const next = { ...prev, [id]: !prev[id] };
-      localStorage.setItem(storageKey(career), JSON.stringify(next));
-      return next;
-    });
-  }
+  const { index, career, setCareer, courses, passedCount, passedCredits } = useMesh();
+  const { maxRow, maxCol } = bounds(courses);
 
   const title = useMemo(() => {
     const found = index.find((x) => x.code === career);
-    return found ? `${found.name} (${career})` : career;
+    return found ? `${found.name}` : career;
   }, [index, career]);
+
 
   return (
     <div className="text-white min-h-screen bg-[#1c1c1d] px-12 py-10 flex flex-col items-center">
+      <header className="bg-[#2c2c2d] w-full p-6 rounded-[55px] flex flex-wrap gap-4 mb-4 items-center">
+        <h1 className="text-3xl font-extrabold">Malla Interactiva ESPOL</h1>
 
-      <header className="flex flex-wrap items-center gap-3 mb-4">
-        <h1 className="text-xl font-bold">{title}</h1>
+        <div className="h-1.5 w-1.5 rounded-full  bg-[#a9a8a8]" />
 
         <select
-          className="border rounded-lg px-3 py-2"
+          className="border-2 px-3 py-2 ring-0 outline-0 border-[#818181] text-white bg-[#1c1c1d]/50 rounded-full"
           value={career}
           onChange={(e) => setCareer(e.target.value)}
         >
           {index.map((c) => (
-            <option key={c.code} value={c.code}>
-              {c.name} ({c.code})
+            <option key={c.code} value={c.code} className="rounded-full bg-[#1c1c1d]/50">
+              {c.name}
             </option>
           ))}
         </select>
+
+        <div className="h-1.5 w-1.5 rounded-full  bg-[#a9a8a8]" />
+
+        <div className="bg-[#1c1c1d]/50 rounded-full px-4 py-2">
+          Aprobadas: <b>{passedCount}</b>
+        </div>
+
+        <div className="bg-[#1c1c1d]/50 rounded-full px-4 py-2">
+          Créditos: <b>{passedCredits}</b>
+        </div>
       </header>
 
-      <div className="w-[95%]">
-        {!courses ? (
-          <div className="opacity-70">Cargando malla…</div>
-        ) : (
-          <MeshGrid courses={courses} passed={passed} onToggle={toggle} />
-        )}        
+      <div className="flex gap-4">
+        <div className="w-[5%] bg-[#818181]/15 rounded-[55px] p-6"
+          style={{
+            gridTemplateRows: `repeat(${maxRow}, minmax(85px, 1fr))`,
+            gridTemplateColumns: `repeat(${maxCol}, minmax(200px, 1fr))`,
+          }}
+        />
+
+        <div className="w-[95%] overflow-auto">
+          {!courses ? (
+            <div className="opacity-70">Cargando malla…</div>
+          ) : (
+            <MeshGrid />
+          )}
+        </div>
+
       </div>
+
+
     </div>
   );
 }

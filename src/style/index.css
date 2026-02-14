@@ -1,20 +1,46 @@
 @import "tailwindcss";
 
 :root {
+
+  font-family: 'Inter', sans-serif;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --basic: #ffffff;
-  --profesional: #406ce6;
-  --integradora: #1e991c;
-  --cpi: #e17829;
+  --basic-bg: #474747;
+  --basic-stroke: #777777;
+  --basic-text: #c7c7c7;
+
+  --professional-bg: #334969;
+  --professional-stroke: #5293F4;
+  --professional-text: #619FFB;
+
+  --integrative-bg: #397B4D;
+  --integrative-stroke: #50FF99;
+  --integrative-text: #58F08B;
+
+  --cpi-bg: #8E5D31;
+  --cpi-stroke: #F09F58;
+  --cpi-text: #FFA150;
 }
 
 @theme {
-  --color-basic: var(--basic);
-  --color-profesional: var(--profesional);
-  --color-integradora: var(--integradora);
-  --color-cpi: var(--cpi);
+
+  --color-basic-bg: var(--basic-bg);
+  --color-basic-stroke: var(--basic-stroke);
+  --color-basic-text: var(--basic-text);
+
+  --color-professional-bg: var(--professional-bg);
+  --color-professional-stroke: var(--professional-stroke);
+  --color-professional-text: var(--professional-text);
+
+  --color-integrative-bg: var(--integrative-bg);
+  --color-integrative-stroke: var(--integrative-stroke);
+  --color-integrative-text: var(--integrative-text);
+
+  --color-cpi-bg: var(--cpi-bg);
+  --color-cpi-stroke: var(--cpi-stroke);
+  --color-cpi-text: var(--cpi-text);
 }
