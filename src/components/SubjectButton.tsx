@@ -1,27 +1,46 @@
 import type { Course } from '../lib/meshApi';
 import unitClass from '../utils/unitClass';
 import { useMesh } from '../context/MeshContext';
+import { buildRulesContext, evalCourse } from "../lib/rules";
+
 
 export default function SubjectButton({ c }: { c: Course }) {
-  const { passed, togglePassed } = useMesh();
-  const isPassed = !!passed[c.id];
+  
+  const { courses, passed, togglePassed } = useMesh();
+  const rulesCtx = buildRulesContext({ courses: courses ?? [], passed });
+  const info = evalCourse(c, rulesCtx);
+  const missingNames = info.missingPrereqs
+    .map((code) => rulesCtx.byCode.get(code)?.name ?? code);
+
+  const disabled = info.status === "BL";
+  const isPassed = info.status === "AP";
 
   const base =
-    'relative overflow-hidden rounded-full py-1 px-4 h-full w-full border-3 text-balance font-semibold transition-all cursor-pointer flex items-center justify-center text-center text-[13px]';
+    'relative overflow-hidden rounded-full py-1 px-4 h-full w-full border-2 text-balance font-semibold transition-all flex flex-col items-center justify-center text-center text-[13px]';
 
   return (
     <button
+      disabled={disabled}
       onClick={() => togglePassed(c.id)}
       className={`
           ${base}
           ${unitClass(c.unit)}
+          ${disabled ? 'opacity-25' : 'cursor-pointer hover:scale-[1.02]'}
         `}
-      title={c.code ?? 'CPI'}
+      title={
+        disabled
+          ? `Faltan: ${missingNames.join(", ")}${
+              info.needsApprovedCount
+                ? ` | requiere ${info.needsApprovedCount} aprobadas`
+                : ''
+            }`
+          : c.name
+      }
     >
       <h2 className="px-3">{c.name}</h2>
-
+      <span className='text-[10px]'>Creditos: {c.credits / 3}</span>
       <div
-        className={`${isPassed ? 'w-full h-2.5 -rotate-14 bg-[#FD4447] absolute' : 'hidden'}`}
+        className={`${isPassed ? 'w-full h-2 -rotate-14 bg-[#eb3235] absolute' : 'hidden'}`}
       />
     </button>
   );

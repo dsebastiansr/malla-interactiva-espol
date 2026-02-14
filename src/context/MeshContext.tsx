@@ -11,7 +11,9 @@ import {
   type CareerIndexItem,
   type Course,
 } from '../lib/meshApi';
+
 import { resolveGridCollisions } from '../lib/resolveGrid';
+import { cascadeUnpass } from "../lib/rules";
 
 type passedMap = Record<string, boolean>;
 
@@ -63,7 +65,14 @@ export function MeshProvider({ children }: { children: React.ReactNode }) {
 
   function togglePassed(id: string) {
     setPassed((prev) => {
-      const next = { ...prev, [id]: !prev[id] };
+      const currently = !!prev[id];
+      let next = { ...prev, [id]: !currently };
+
+      // si lo estás desmarcando, aplica cascada
+      if (currently && courses) {
+        next = cascadeUnpass(courses, prev, id);
+      }
+
       localStorage.setItem(storageKey(career), JSON.stringify(next));
       return next;
     });
@@ -83,7 +92,7 @@ export function MeshProvider({ children }: { children: React.ReactNode }) {
     if (!courses) return 0;
     let sum = 0;
     for (const c of courses) {
-      if (passed[c.id] && typeof c.credits === "number") sum += c.credits;
+      if (passed[c.id] && typeof c.credits === "number") sum += (c.credits / 3);
     }
     return sum;
   }, [courses, passed]);

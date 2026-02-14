@@ -2,18 +2,8 @@ import { useMemo } from "react";
 import { useMesh } from "./context/MeshContext";
 import { MeshGrid } from "./components/MeshGrid";
 
-function bounds(courses: { grid: { row: number | null; col: number | null } }[]) {
-  let maxRow = 0, maxCol = 0;
-  for (const c of courses) {
-    if (c.grid.row) maxRow = Math.max(maxRow, c.grid.row);
-    if (c.grid.col) maxCol = Math.max(maxCol, c.grid.col);
-  }
-  return { maxRow, maxCol };
-}
-
 export default function App() {
   const { index, career, setCareer, courses, passedCount, passedCredits } = useMesh();
-  // const { maxRow, maxCol } = bounds(courses);
 
   const title = useMemo(() => {
     const found = index.find((x) => x.code === career);
@@ -51,24 +41,13 @@ export default function App() {
         </div>
       </header>
 
-      <div className="flex gap-4">
-        {/* <div className="w-[5%] bg-[#818181]/15 rounded-[55px] p-6"
-          style={{
-            gridTemplateRows: `repeat(${maxRow}, minmax(85px, 1fr))`,
-            gridTemplateColumns: `repeat(${maxCol}, minmax(200px, 1fr))`,
-          }}
-        /> */}
-
-        <div className="w-full overflow-auto">
-          {!courses ? (
-            <div className="opacity-70">Cargando malla…</div>
-          ) : (
-            <MeshGrid />
-          )}
-        </div>
-
+      <div className="w-full overflow-auto">
+        {!courses ? (
+          <div className="opacity-70">Cargando malla…</div>
+        ) : (
+          <MeshGrid />
+        )}
       </div>
-
 
     </div>
   );
