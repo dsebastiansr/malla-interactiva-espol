@@ -15,11 +15,6 @@ export default function App() {
     passedCredits,
   } = useMesh();
 
-  const title = useMemo(() => {
-    const found = index.find((x) => x.code === career);
-    return found ? `${found.name}` : career;
-  }, [index, career]);
-
   const faculties = useMemo(() => listFaculties(index), [index]);
   const careers = useMemo(
     () => careersByFaculty(index, faculty),

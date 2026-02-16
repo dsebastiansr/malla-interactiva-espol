@@ -42,7 +42,7 @@ export default function SubjectButton({ c }: { c: Course }) {
         Creditos: {
           c.name.includes('PREPROFESIONALES')
           ? c.credits
-          : c.credits / 3
+          : c.credits != null ? c.credits / 3 : "-"
         }
       </span>
       <div

@@ -1,7 +1,5 @@
 import type { Course } from './meshApi';
 
-import type { Req } from "./meshApi"; // ajusta si tu type está en otro lado
-
 export function buildDependentsGraph(courses: Course[]) {
   // prereqCode -> set of courseIds that depend on it
   const dep = new Map<string, Set<string>>();
@@ -31,7 +29,7 @@ export type CourseStatus = 'AP' | 'AV' | 'BL'
 
 export type RulesContext = {
   courses: Course[];
-  passed: Record<string, CourseStatus>;
+  passed: Record<string, boolean>;
 }
 
 export type CourseEval = {
@@ -87,7 +85,6 @@ export function cascadeUnpass(
   next[startId] = false;
 
   const dep = buildDependentsGraph(courses);
-  const idByCode = courseIdByCode(courses);
 
   // encontrar el código de la materia desmarcada
   const startCourse = courses.find((c) => c.id === startId);
