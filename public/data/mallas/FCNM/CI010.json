@@ -1,0 +1,733 @@
+[
+  {
+    "id": "CI010:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI010:MATG1062",
+    "code": "MATG1062",
+    "name": "GEOMETRÍA AXIOMÁTICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1063",
+    "code": "MATG1063",
+    "name": "CÁLCULO I",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1064",
+    "code": "MATG1064",
+    "name": "CÁLCULO II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1063",
+        "name": "CÁLCULO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1065",
+    "code": "MATG1065",
+    "name": "ANÁLISIS DISCRETO",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1066",
+    "code": "MATG1066",
+    "name": "ÁLGEBRA LINEAL I",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1067",
+    "code": "MATG1067",
+    "name": "ÁLGEBRA LINEAL II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG1066",
+        "name": "ÁLGEBRA LINEAL I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1068",
+    "code": "MATG1068",
+    "name": "ECUACIONES DIFERENCIALES I",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1066",
+        "name": "ÁLGEBRA LINEAL I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1069",
+    "code": "MATG1069",
+    "name": "ECUACIONES DIFERENCIALES II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1071",
+        "name": "ANÁLISIS MATEMÁTICO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1070",
+    "code": "MATG1070",
+    "name": "ANÁLISIS MATEMÁTICO I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1064",
+        "name": "CÁLCULO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1071",
+    "code": "MATG1071",
+    "name": "ANÁLISIS MATEMÁTICO II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1070",
+        "name": "ANÁLISIS MATEMÁTICO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1072",
+    "code": "MATG1072",
+    "name": "FUNDAMENTOS DE OPTIMIZACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1066",
+        "name": "ÁLGEBRA LINEAL I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1073",
+    "code": "MATG1073",
+    "name": "ESTRUCTURAS ALGEBRAICAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG1056",
+        "name": "INTRODUCCIÓN AL RAZONAMIENTO MATEMÁTICO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1074",
+    "code": "MATG1074",
+    "name": "TOPOLOGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1070",
+        "name": "ANÁLISIS MATEMÁTICO I",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1075",
+    "code": "MATG1075",
+    "name": "MÉTODOS MATEMÁTICOS PARA LAS CIENCIAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1068",
+        "name": "ECUACIONES DIFERENCIALES I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1076",
+    "code": "MATG1076",
+    "name": "ANÁLISIS NUMÉRICO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG1068",
+        "name": "ECUACIONES DIFERENCIALES I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1077",
+    "code": "MATG1077",
+    "name": "TEORÍA DE LA MEDIDA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1070",
+        "name": "ANÁLISIS MATEMÁTICO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1078",
+    "code": "MATG1078",
+    "name": "ANÁLISIS COMPLEJO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1070",
+        "name": "ANÁLISIS MATEMÁTICO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1079",
+    "code": "MATG1079",
+    "name": "ANÁLISIS FUNCIONAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1077",
+        "name": "TEORÍA DE LA MEDIDA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1080",
+    "code": "MATG1080",
+    "name": "GEOMETRÍA DIFERENCIAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 24
+  },
+  {
+    "id": "CI010:ADMG1007",
+    "code": "ADMG1007",
+    "name": "ESTRATEGIAS DE GESTIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 30
+  },
+  {
+    "id": "CI010:MATG1082",
+    "code": "MATG1082",
+    "name": "ELEMENTOS DE COMPUTACIÓN CIENTÍFICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG1076",
+        "name": "ANÁLISIS NUMÉRICO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1086",
+    "code": "MATG1086",
+    "name": "MATERIA INTEGRADORA DE MATEMÁTICA",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 37
+  },
+  {
+    "id": "CI010:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:ESTG1036",
+    "code": "ESTG1036",
+    "name": "ESTADÍSTICA I",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI010:MATG1056",
+    "code": "MATG1056",
+    "name": "INTRODUCCIÓN AL RAZONAMIENTO MATEMÁTICO",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:ESTG1039",
+    "code": "ESTG1039",
+    "name": "ESTADÍSTICA MATEMÁTICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ESTG1036",
+        "name": "ESTADÍSTICA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1063",
+        "name": "CÁLCULO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:FISG1005",
+    "code": "FISG1005",
+    "name": "FÍSICA: MECÁNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1063",
+        "name": "CÁLCULO I",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:MATG1046",
+    "code": "MATG1046",
+    "name": "CÁLCULO VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1064",
+        "name": "CÁLCULO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI010:CPI:6",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:CPI:30",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:CPI:46",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:CPI:48",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:CPI:49",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI010:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

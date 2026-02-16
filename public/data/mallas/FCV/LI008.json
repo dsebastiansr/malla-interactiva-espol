@@ -1,0 +1,875 @@
+[
+  {
+    "id": "LI008:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2029",
+    "code": "NUTG2029",
+    "name": "EVALUACIÓN DEL ESTADO NUTRICIONAL I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "NUTG2036",
+        "name": "NUTRICIÓN EN EL CICLO DE LA VIDA I",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "NUTG2042",
+        "name": "TÉCNICAS DIETÉTICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2030",
+    "code": "NUTG2030",
+    "name": "EVALUACIÓN DEL ESTADO NUTRICIONAL II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "NUTG2029",
+        "name": "EVALUACIÓN DEL ESTADO NUTRICIONAL I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MEDG2016",
+    "code": "MEDG2016",
+    "name": "FARMACOLOGÍA Y NUTRICIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "NUTG2041",
+        "name": "NUTRICIÓN HUMANA Y METABOLISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:BIOG1024",
+    "code": "BIOG1024",
+    "name": "BIOQUÍMICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "BIOG1022",
+        "name": "BIOLOGÍA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:BIOG1026",
+    "code": "BIOG1026",
+    "name": "INVESTIGACIÓN EN CIENCIAS DE LA VIDA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MEDG2017",
+    "code": "MEDG2017",
+    "name": "LEGISLACIÓN Y SOBERANÍA ALIMENTARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "NUTG2043",
+        "name": "TÉCNICAS CULINARIAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MEDG2015",
+    "code": "MEDG2015",
+    "name": "EPIDEMIOLOGÍA Y SALUD PÚBLICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ESTG1063",
+        "name": "BIOESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:BIOG1028",
+    "code": "BIOG1028",
+    "name": "MICROBIOLOGÍA GENERAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "BIOG1021",
+        "name": "BIOLOGÍA CELULAR Y MOLECULAR",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MEDG2018",
+    "code": "MEDG2018",
+    "name": "MORFOFISIOLOGÍA HUMANA I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MEDG2012",
+        "name": "ANTROPOLOGÍA NUTRICIONAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MEDG2019",
+    "code": "MEDG2019",
+    "name": "MORFOFISIOLOGÍA HUMANA II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "MEDG2018",
+        "name": "MORFOFISIOLOGÍA HUMANA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2032",
+    "code": "NUTG2032",
+    "name": "NUTRICIÓN CLÍNICA I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "NUTG2028",
+        "name": "DIETOTERAPIA BÁSICA",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "MEDG2016",
+        "name": "FARMACOLOGÍA Y NUTRICIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2033",
+    "code": "NUTG2033",
+    "name": "NUTRICIÓN CLÍNICA II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "NUTG2032",
+        "name": "NUTRICIÓN CLÍNICA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2034",
+    "code": "NUTG2034",
+    "name": "NUTRICIÓN CLÍNICA III",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "NUTG2033",
+        "name": "NUTRICIÓN CLÍNICA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2035",
+    "code": "NUTG2035",
+    "name": "NUTRICIÓN DEPORTIVA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "NUTG2030",
+        "name": "EVALUACIÓN DEL ESTADO NUTRICIONAL II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2036",
+    "code": "NUTG2036",
+    "name": "NUTRICIÓN EN EL CICLO DE LA VIDA I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "NUTG2041",
+        "name": "NUTRICIÓN HUMANA Y METABOLISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2037",
+    "code": "NUTG2037",
+    "name": "NUTRICIÓN EN EL CICLO DE LA VIDA II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "NUTG2036",
+        "name": "NUTRICIÓN EN EL CICLO DE LA VIDA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2038",
+    "code": "NUTG2038",
+    "name": "TENDENCIAS EN NUTRICIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "MEDG2014",
+        "name": "CONSEJERÍA NUTRICIONAL",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2028",
+    "code": "NUTG2028",
+    "name": "DIETOTERAPIA BÁSICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "NUTG2029",
+        "name": "EVALUACIÓN DEL ESTADO NUTRICIONAL I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2040",
+    "code": "NUTG2040",
+    "name": "TOXICOLOGÍA NUTRICIONAL Y ALIMENTARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "NUTG2037",
+        "name": "NUTRICIÓN EN EL CICLO DE LA VIDA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MEDG2020",
+    "code": "MEDG2020",
+    "name": "SALUD COMUNITARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "MEDG2015",
+        "name": "EPIDEMIOLOGÍA Y SALUD PÚBLICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2041",
+    "code": "NUTG2041",
+    "name": "NUTRICIÓN HUMANA Y METABOLISMO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "BIOG1024",
+        "name": "BIOQUÍMICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MEDG2019",
+        "name": "MORFOFISIOLOGÍA HUMANA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2042",
+    "code": "NUTG2042",
+    "name": "TÉCNICAS DIETÉTICAS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MEDG2013",
+        "name": "ANÁLISIS NUTRICIONAL DE LOS ALIMENTOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2043",
+    "code": "NUTG2043",
+    "name": "TÉCNICAS CULINARIAS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "LI008:ESTG2004",
+    "code": "ESTG2004",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MATG2007",
+    "code": "MATG2007",
+    "name": "MATEMÁTICAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2039",
+    "code": "NUTG2039",
+    "name": "SERVICIOS DE ALIMENTACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "NUTG2028",
+        "name": "DIETOTERAPIA BÁSICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:QUIG1032",
+    "code": "QUIG1032",
+    "name": "QUÍMICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:QUIG1035",
+    "code": "QUIG1035",
+    "name": "QUÍMICA ORGÁNICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "BIOG1022",
+        "name": "BIOLOGÍA GENERAL",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI008:ESTG1063",
+    "code": "ESTG1063",
+    "name": "BIOESTADÍSTICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ESTG2004",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2026",
+    "code": "NUTG2026",
+    "name": "BIOÉTICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "BIOG1026",
+        "name": "INVESTIGACIÓN EN CIENCIAS DE LA VIDA",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "MEDG2017",
+        "name": "LEGISLACIÓN Y SOBERANÍA ALIMENTARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MEDG2014",
+    "code": "MEDG2014",
+    "name": "CONSEJERÍA NUTRICIONAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "MEDG2020",
+        "name": "SALUD COMUNITARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:BIOG1022",
+    "code": "BIOG1022",
+    "name": "BIOLOGÍA GENERAL",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:BIOG1021",
+    "code": "BIOG1021",
+    "name": "BIOLOGÍA CELULAR Y MOLECULAR",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "QUIG1035",
+        "name": "QUÍMICA ORGÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:MEDG2013",
+    "code": "MEDG2013",
+    "name": "ANÁLISIS NUTRICIONAL DE LOS ALIMENTOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "QUIG1035",
+        "name": "QUÍMICA ORGÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG2007",
+        "name": "MATEMÁTICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI008:MEDG2012",
+    "code": "MEDG2012",
+    "name": "ANTROPOLOGÍA NUTRICIONAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:NUTG2031",
+    "code": "NUTG2031",
+    "name": "MATERIA INTEGRADORA DE NUTRICIÓN Y DIETÉTICA",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 44
+  },
+  {
+    "id": "LI008:NUTG2027",
+    "code": "NUTG2027",
+    "name": "DIETOTERAPIA AVANZADA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "NUTG2028",
+        "name": "DIETOTERAPIA BÁSICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:CPI:22",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI008:CPI:38",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

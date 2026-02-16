@@ -1,0 +1,887 @@
+[
+  {
+    "id": "CI026:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1027",
+    "code": "AGRG1027",
+    "name": "FISIOLOGÍA VEGETAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "FISG2002",
+        "name": "FÍSICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:MEDG1022",
+    "code": "MEDG1022",
+    "name": "GENOTECNIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ESTG1063",
+        "name": "BIOESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MEDG1023",
+        "name": "GENÉTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:MEDG1023",
+    "code": "MEDG1023",
+    "name": "GENÉTICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "BIOG1028",
+        "name": "MICROBIOLOGÍA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1028",
+    "code": "AGRG1028",
+    "name": "GESTIÓN DE UNIDADES DE PRODUCCIÓN AGROPECUARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "CCAG1002",
+        "name": "EXTENSIONISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:BIOG1024",
+    "code": "BIOG1024",
+    "name": "BIOQUÍMICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "QUIG1035",
+        "name": "QUÍMICA ORGÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1029",
+    "code": "AGRG1029",
+    "name": "MATERIA INTEGRADORA DE INGENIERÍA AGRÍCOLA Y BIOLÓGICA",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 44
+  },
+  {
+    "id": "CI026:AGRG1030",
+    "code": "AGRG1030",
+    "name": "MECANIZACIÓN AGRÍCOLA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "AGRG1035",
+        "name": "RIEGO Y DRENAJE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:BIOG1028",
+    "code": "BIOG1028",
+    "name": "MICROBIOLOGÍA GENERAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "BIOG1021",
+        "name": "BIOLOGÍA CELULAR Y MOLECULAR",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:BIOG1021",
+    "code": "BIOG1021",
+    "name": "BIOLOGÍA CELULAR Y MOLECULAR",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "BIOG1022",
+        "name": "BIOLOGÍA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1033",
+    "code": "AGRG1033",
+    "name": "PRODUCCIÓN VEGETAL II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "AGRG1024",
+        "name": "DIAGNÓSTICO Y PROTECCIÓN VEGETAL II",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "AGRG1032",
+        "name": "PRODUCCIÓN VEGETAL I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1035",
+    "code": "AGRG1035",
+    "name": "RIEGO Y DRENAJE",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "AGRG1033",
+        "name": "PRODUCCIÓN VEGETAL II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1036",
+    "code": "AGRG1036",
+    "name": "SILVICULTURA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "AGRG1037",
+        "name": "NUTRICIÓN VEGETAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1037",
+    "code": "AGRG1037",
+    "name": "NUTRICIÓN VEGETAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "AGRG1026",
+        "name": "EDAFOLOGÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1038",
+    "code": "AGRG1038",
+    "name": "PRODUCCIÓN PECUARIA II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "AGRG1039",
+        "name": "PRODUCCIÓN PECUARIA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1039",
+    "code": "AGRG1039",
+    "name": "PRODUCCIÓN PECUARIA I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "AGRG1032",
+        "name": "PRODUCCIÓN VEGETAL I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:CCAG1002",
+    "code": "CCAG1002",
+    "name": "EXTENSIONISMO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "AGRG1033",
+        "name": "PRODUCCIÓN VEGETAL II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:ECOG1008",
+    "code": "ECOG1008",
+    "name": "PROYECTOS AGRÍCOLAS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "CCAG1002",
+        "name": "EXTENSIONISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:MATG1045",
+    "code": "MATG1045",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI026:AGRG1023",
+    "code": "AGRG1023",
+    "name": "AGROECOSISTEMAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "AGRG1036",
+        "name": "SILVICULTURA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:ESTG1034",
+    "code": "ESTG1034",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1047",
+        "name": "CÁLCULO DE VARIAS VARIABLES",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:QUIG1032",
+    "code": "QUIG1032",
+    "name": "QUÍMICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:QUIG1035",
+    "code": "QUIG1035",
+    "name": "QUÍMICA ORGÁNICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI026:FISG2002",
+    "code": "FISG2002",
+    "name": "FÍSICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:ESTG1063",
+    "code": "ESTG1063",
+    "name": "BIOESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ESTG1034",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1041",
+    "code": "AGRG1041",
+    "name": "SEMILLEROS Y VIVEROS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MEDG1017",
+        "name": "BOTÁNICA GENERAL",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "AGRG1027",
+        "name": "FISIOLOGÍA VEGETAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:MATG1047",
+    "code": "MATG1047",
+    "name": "CÁLCULO DE VARIAS VARIABLES",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1032",
+    "code": "AGRG1032",
+    "name": "PRODUCCIÓN VEGETAL I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "AGRG1025",
+        "name": "DIAGNÓSTICO Y PROTECCIÓN VEGETAL I",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "AGRG1041",
+        "name": "SEMILLEROS Y VIVEROS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1022",
+    "code": "AGRG1022",
+    "name": "AGRICULTURA DE PRECISIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "AGRG1038",
+        "name": "PRODUCCIÓN PECUARIA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI026:AGRG1025",
+    "code": "AGRG1025",
+    "name": "DIAGNÓSTICO Y PROTECCIÓN VEGETAL I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "AGRG1041",
+        "name": "SEMILLEROS Y VIVEROS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1040",
+    "code": "AGRG1040",
+    "name": "PRODUCCIÓN VEGETAL III",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "AGRG1035",
+        "name": "RIEGO Y DRENAJE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1026",
+    "code": "AGRG1026",
+    "name": "EDAFOLOGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "BIOG1024",
+        "name": "BIOQUÍMICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:AGRG1024",
+    "code": "AGRG1024",
+    "name": "DIAGNÓSTICO Y PROTECCIÓN VEGETAL II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "AGRG1025",
+        "name": "DIAGNÓSTICO Y PROTECCIÓN VEGETAL I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:MEDG1017",
+    "code": "MEDG1017",
+    "name": "BOTÁNICA GENERAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "BIOG1022",
+        "name": "BIOLOGÍA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:BIOG1022",
+    "code": "BIOG1022",
+    "name": "BIOLOGÍA GENERAL",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:CPI:2",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:CPI:60",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 8,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI026:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

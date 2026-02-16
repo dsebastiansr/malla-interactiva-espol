@@ -1,0 +1,748 @@
+[
+  {
+    "id": "CI030:CDIAG1801",
+    "code": "CDIAG1801",
+    "name": "MACHINE LEARNING",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CDIAG1811",
+        "name": "FUNDAMENTOS DE CIENCIA DE DATOS E INTELIGENCIA ARTIFICIAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1803",
+        "name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CDIAG1807",
+    "code": "CDIAG1807",
+    "name": "DEEP LEARNING",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CDIAG1806",
+        "name": "ETICA EN CIENCIA DE DATOS Y SISTEMAS INTELIGENTES",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1809",
+        "name": "INTELIGENCIA ARTIFICIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:TLMG1801",
+    "code": "TLMG1801",
+    "name": "AMBIENTES INTELIGENTES",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 30
+  },
+  {
+    "id": "CI030:CDIAG1808",
+    "code": "CDIAG1808",
+    "name": "SISTEMAS DE MACHINE LEARNING",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "CDIAG1806",
+        "name": "ETICA EN CIENCIA DE DATOS Y SISTEMAS INTELIGENTES",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1810",
+        "name": "SISTEMAS DISTRIBUIDOS Y COMPUTACIÓN EN LA NUBE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CDIAG1809",
+    "code": "CDIAG1809",
+    "name": "PROCESAMIENTO DE LENGUAJE NATURAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CDIAG1807",
+        "name": "DEEP LEARNING",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CDIAG1811",
+    "code": "CDIAG1811",
+    "name": "FUNDAMENTOS DE CIENCIA DE DATOS E INTELIGENCIA ARTIFICIAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI030:CDIAG1812",
+    "code": "CDIAG1812",
+    "name": "MATERIA INTEGRADORA DE CIENCIA DE DATOS E INTELIGENCIA ARTIFICIAL [VIRTUAL]",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 39
+  },
+  {
+    "id": "CI030:CCPG1812",
+    "code": "CCPG1812",
+    "name": "SEGURIDAD DE LA INFORMACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI030:MATG1801",
+    "code": "MATG1801",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:MATG1802",
+    "code": "MATG1802",
+    "name": "CÁLCULO VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1801",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:MATG1803",
+    "code": "MATG1803",
+    "name": "ÁLGEBRA LINEAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1801",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:TICG1801",
+    "code": "TICG1801",
+    "name": "BASES DE DATOS AVANZADAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 30
+  },
+  {
+    "id": "CI030:ADMG1801",
+    "code": "ADMG1801",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI030:ADSG1801",
+    "code": "ADSG1801",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI030:ESTG1801",
+    "code": "ESTG1801",
+    "name": "DATOS Y PRONÓSTICOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ESTG1803",
+        "name": "ESTADÍSTICA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:ESTG1802",
+    "code": "ESTG1802",
+    "name": "ESTADÍSTICA I",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1802",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:ESTG1803",
+    "code": "ESTG1803",
+    "name": "ESTADÍSTICA II",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ESTG1802",
+        "name": "ESTADÍSTICA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:SOFG1801",
+    "code": "SOFG1801",
+    "name": "DESARROLLO DE APLICACIONES WEB Y MÓVILES",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": 12
+  },
+  {
+    "id": "CI030:TICG1802",
+    "code": "TICG1802",
+    "name": "SISTEMA DE BASES DE DATOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "CCPG1801",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CCPG1810",
+    "code": "CCPG1810",
+    "name": "SISTEMAS DISTRIBUIDOS Y COMPUTACIÓN EN LA NUBE",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI030:INDG1801",
+    "code": "INDG1801",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:IDIG1801",
+    "code": "IDIG1801",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI030:IDIG1802",
+    "code": "IDIG1802",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:IDIG1803",
+    "code": "IDIG1803",
+    "name": "INGLES III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1806",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:IDIG1804",
+    "code": "IDIG1804",
+    "name": "INGLES IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1803",
+        "name": "INGLES III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:IDIG1805",
+    "code": "IDIG1805",
+    "name": "INGLES V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1804",
+        "name": "INGLES IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:IDIG1806",
+    "code": "IDIG1806",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1802",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CCPG1809",
+    "code": "CCPG1809",
+    "name": "INTELIGENCIA ARTIFICIAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ESTG1803",
+        "name": "ESTADÍSTICA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CDIAG1806",
+    "code": "CDIAG1806",
+    "name": "ETICA EN CIENCIA DE DATOS Y SISTEMAS INTELIGENTES",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "CDIAG1801",
+        "name": "MACHINE LEARNING",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CCPG1805",
+    "code": "CCPG1805",
+    "name": "INTERACCIÓN HUMANO COMPUTADOR",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "INDG1801",
+        "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1803",
+        "name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CDIAG1804",
+    "code": "CDIAG1804",
+    "name": "VISUALIZACIÓN DE INFORMACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "SOFG1801",
+        "name": "DESARROLLO DE APLICACIONES WEB Y MÓVILES",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CCPG1804",
+    "code": "CCPG1804",
+    "name": "ESTRUCTURAS DE DATOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "CCPG1803",
+        "name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CDIAG1803",
+    "code": "CDIAG1803",
+    "name": "ALGORITMOS DE OPTIMIZACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG1803",
+        "name": "ÁLGEBRA LINEAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1801",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CCPG1801",
+    "code": "CCPG1801",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CCPG1803",
+    "code": "CCPG1803",
+    "name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CCPG1801",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CCPG1806",
+    "code": "CCPG1806",
+    "name": "ANÁLISIS DE ALGORITMOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "CCPG1804",
+        "name": "ESTRUCTURAS DE DATOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CDIAG1802",
+    "code": "CDIAG1802",
+    "name": "ESTRATEGIA DE DATOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "CDIAG1806",
+        "name": "ETICA EN CIENCIA DE DATOS Y SISTEMAS INTELIGENTES",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:SOFG1802",
+    "code": "SOFG1802",
+    "name": "INGENIERÍA DE SOFTWARE I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "SOFG1801",
+        "name": "DESARROLLO DE APLICACIONES WEB Y MÓVILES",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "CCPG1805",
+        "name": "INTERACCIÓN HUMANO COMPUTADOR",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CPI:5",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CPI:12",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CPI:60",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI030:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

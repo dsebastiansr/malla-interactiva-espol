@@ -1,0 +1,799 @@
+[
+  {
+    "id": "lI005:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2029",
+    "code": "DIGG2029",
+    "name": "DISEÑO GRÁFICO I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DIGG2033",
+        "name": "HISTORIA DEL DISEÑO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2030",
+    "code": "DIGG2030",
+    "name": "DISEÑO GRÁFICO II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DIGG2029",
+        "name": "DISEÑO GRÁFICO I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DIGG2036",
+        "name": "TIPOGRAFÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2031",
+    "code": "DIGG2031",
+    "name": "DISEÑO GRÁFICO III",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DIGG2030",
+        "name": "DISEÑO GRÁFICO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2032",
+    "code": "DIGG2032",
+    "name": "DISEÑO GRÁFICO IV",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DIGG2026",
+        "name": "DISEÑO DE MARCA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DIGG2031",
+        "name": "DISEÑO GRÁFICO III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ECOG2041",
+    "code": "ECOG2041",
+    "name": "GESTIÓN DEL DISEÑO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "DIGG2023",
+        "name": "DIRECCIÓN DE ARTE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ARTG2028",
+    "code": "ARTG2028",
+    "name": "HISTORIA DEL ARTE",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARTG2024",
+        "name": "ARTE Y TECNOLOGÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2033",
+    "code": "DIGG2033",
+    "name": "HISTORIA DEL DISEÑO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARTG2028",
+        "name": "HISTORIA DEL ARTE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2034",
+    "code": "DIGG2034",
+    "name": "MATERIA INTEGRADORA DE DISEÑO GRÁFICO",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 40
+  },
+  {
+    "id": "lI005:DIGG2035",
+    "code": "DIGG2035",
+    "name": "PROYECTO DE DISEÑO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "DIGG2023",
+        "name": "DIRECCIÓN DE ARTE",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DIGG2031",
+        "name": "DISEÑO GRÁFICO III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CCAG2021",
+    "code": "CCAG2021",
+    "name": "SEMIÓTICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "DIGG2040",
+        "name": "ANTROPOLOGÍA DEL DISEÑO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ARTG2032",
+    "code": "ARTG2032",
+    "name": "TALLER DE ILUSTRACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARTG2033",
+        "name": "TÉCNICAS PICTÓRICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:COMG2002",
+    "code": "COMG2002",
+    "name": "TEORÍA DE LA COMUNICACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARTG2023",
+        "name": "ARTE Y CIENCIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2036",
+    "code": "DIGG2036",
+    "name": "TIPOGRAFÍA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "DIGG2033",
+        "name": "HISTORIA DEL DISEÑO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2037",
+    "code": "DIGG2037",
+    "name": "TÉCNICAS DE IMPRESIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "DIGG2030",
+        "name": "DISEÑO GRÁFICO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ARTG2033",
+    "code": "ARTG2033",
+    "name": "TÉCNICAS PICTÓRICAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARTG2026",
+        "name": "DIBUJO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "lI005:ESTG2004",
+    "code": "ESTG2004",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2026",
+    "code": "DIGG2026",
+    "name": "DISEÑO DE MARCA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "DIGG2041",
+        "name": "INVESTIGACIÓN APLICADA AL DISEÑO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "lI005:DIGG2039",
+    "code": "DIGG2039",
+    "name": "REDACCIÓN CREATIVA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "COMG2002",
+        "name": "TEORÍA DE LA COMUNICACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CADG2045",
+    "code": "CADG2045",
+    "name": "FOTOGRAFÍA DIGITAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "CCAG2021",
+        "name": "SEMIÓTICA",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:MATG2009",
+    "code": "MATG2009",
+    "name": "MATEMÁTICAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2040",
+    "code": "DIGG2040",
+    "name": "ANTROPOLOGÍA DEL DISEÑO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "DIGG2039",
+        "name": "REDACCIÓN CREATIVA",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "COMG2002",
+        "name": "TEORÍA DE LA COMUNICACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2041",
+    "code": "DIGG2041",
+    "name": "INVESTIGACIÓN APLICADA AL DISEÑO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "lI005:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2025",
+    "code": "DIGG2025",
+    "name": "DISEÑO DE INFORMACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "DIGG2037",
+        "name": "TÉCNICAS DE IMPRESIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ARTG2026",
+    "code": "ARTG2026",
+    "name": "DIBUJO II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARTG2025",
+        "name": "DIBUJO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "MATG2009",
+        "name": "MATEMÁTICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2023",
+    "code": "DIGG2023",
+    "name": "DIRECCIÓN DE ARTE",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "CADG2045",
+        "name": "FOTOGRAFÍA DIGITAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ARTG2025",
+    "code": "ARTG2025",
+    "name": "DIBUJO  I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ARTG2024",
+    "code": "ARTG2024",
+    "name": "ARTE Y TECNOLOGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "lI005:ARTG2023",
+    "code": "ARTG2023",
+    "name": "ARTE Y CIENCIA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2028",
+    "code": "DIGG2028",
+    "name": "DISEÑO ESTRATÉGICO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ECOG2041",
+        "name": "GESTIÓN DEL DISEÑO",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:DIGG2027",
+    "code": "DIGG2027",
+    "name": "DISEÑO EDITORIAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "DIGG2030",
+        "name": "DISEÑO GRÁFICO II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARTG2032",
+        "name": "TALLER DE ILUSTRACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CPI:1",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CPI:9",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "lI005:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

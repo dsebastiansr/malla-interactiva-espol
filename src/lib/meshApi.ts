@@ -11,7 +11,11 @@ export type Course = {
   approved_count_requirement: number | null;
 };
 
-export type CareerIndexItem = { code: string; name: string };
+export type CareerIndexItem = { 
+  code: string;
+  name: string;
+  faculty: string
+};
 
 const DATA_BASE = import.meta.env.VITE_DATA_BASE ?? ''; 
 // hoy: "" -> usa /public
@@ -32,6 +36,6 @@ export function fetchIndex(): Promise<CareerIndexItem[]> {
   return cachedJson("index", `${DATA_BASE}/data/index.json`);
 }
 
-export function fetchMalla(careerCode: string): Promise<Course[]> {
-  return cachedJson(`malla:${careerCode}`, `${DATA_BASE}/data/mallas/${careerCode}_final.json`);
+export function fetchMalla(careerCode: string, faculty: string): Promise<Course[]> {
+  return cachedJson(`malla:${careerCode}`, `${DATA_BASE}/data/mallas/${faculty}/${careerCode}.json`);
 }

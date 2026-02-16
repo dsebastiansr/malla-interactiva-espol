@@ -16,29 +16,35 @@ export default function SubjectButton({ c }: { c: Course }) {
   const isPassed = info.status === "AP";
 
   const base =
-    'relative overflow-hidden rounded-full py-1 px-4 h-full w-full border-2 text-balance font-semibold transition-all flex flex-col items-center justify-center text-center text-[13px]';
+    'relative overflow-hidden rounded-full py-1 px-4 h-full w-full border-2 text-balance font-semibold transition-all flex flex-col items-center justify-center text-center text-[12px] text-balance';
 
   return (
     <button
       disabled={disabled}
       onClick={() => togglePassed(c.id)}
       className={`
-          ${base}
-          ${unitClass(c.unit)}
-          ${disabled ? 'opacity-25' : 'cursor-pointer hover:scale-[1.02]'}
-        `}
+        ${base}
+        ${unitClass(c.unit)}
+        ${disabled ? 'opacity-25' : 'cursor-pointer'}
+      `}
       title={
         disabled
-          ? `Faltan: ${missingNames.join(", ")}${
+          ? `Requisito(s): ${missingNames.join(", ")}${
               info.needsApprovedCount
-                ? ` | requiere ${info.needsApprovedCount} aprobadas`
+                ? ` requiere ${info.needsApprovedCount} aprobadas`
                 : ''
             }`
           : c.name
       }
     >
       <h2 className="px-3">{c.name}</h2>
-      <span className='text-[10px]'>Creditos: {c.credits / 3}</span>
+      <span className='text-[10px]'>
+        Creditos: {
+          c.name.includes('PREPROFESIONALES')
+          ? c.credits
+          : c.credits / 3
+        }
+      </span>
       <div
         className={`${isPassed ? 'w-full h-2 -rotate-14 bg-[#eb3235] absolute' : 'hidden'}`}
       />

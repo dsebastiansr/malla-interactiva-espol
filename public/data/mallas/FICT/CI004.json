@@ -1,0 +1,751 @@
+[
+  {
+    "id": "CI004:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1023",
+    "code": "PETG1023",
+    "name": "INGENIERÍA DE YACIMIENTOS I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "PETG1030",
+        "name": "EVALUACIÓN DE FORMACIONES I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1024",
+    "code": "PETG1024",
+    "name": "INGENIERÍA DE YACIMIENTOS II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "PETG1023",
+        "name": "INGENIERÍA DE YACIMIENTOS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1025",
+    "code": "PETG1025",
+    "name": "PERFORACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "PETG1027",
+        "name": "PETROFÍSICA",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1026",
+    "code": "PETG1026",
+    "name": "PERFORACIÓN DIRECCIONAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "PETG1025",
+        "name": "PERFORACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1027",
+    "code": "PETG1027",
+    "name": "PETROFÍSICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MECG1060",
+        "name": "ESTÁTICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "GEOG1052",
+        "name": "GEOLOGÍA PARA INGENIEROS EN PETRÓLEO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1028",
+    "code": "PETG1028",
+    "name": "SIMULACIÓN DE RESERVORIOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "PETG1024",
+        "name": "INGENIERÍA DE YACIMIENTOS II",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:MECG1060",
+    "code": "MECG1060",
+    "name": "ESTÁTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:MECG1061",
+    "code": "MECG1061",
+    "name": "TERMODINÁMICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "FISG1008",
+        "name": "FÍSICA: TERMODINÁMICA Y ELECTRÓNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI004:ESTG1034",
+    "code": "ESTG1034",
+    "name": "ESTADÍSTICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:MATG1048",
+    "code": "MATG1048",
+    "name": "ECUACIONES DIFERENCIALES Y ÁLGEBRA LINEAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:MATG1052",
+    "code": "MATG1052",
+    "name": "MÉTODOS NUMÉRICOS",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1030",
+    "code": "PETG1030",
+    "name": "EVALUACIÓN DE FORMACIONES I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ESTG1034",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "PETG1031",
+        "name": "PROPIEDADES DE HIDROCARBUROS Y COMPORTAMIENTO DE FASES",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:QUIG1032",
+    "code": "QUIG1032",
+    "name": "QUÍMICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI004:PETG1031",
+    "code": "PETG1031",
+    "name": "PROPIEDADES DE HIDROCARBUROS Y COMPORTAMIENTO DE FASES",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MECG1061",
+        "name": "TERMODINÁMICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:GEOG1052",
+    "code": "GEOG1052",
+    "name": "GEOLOGÍA PARA INGENIEROS EN PETRÓLEO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "PETG1032",
+        "name": "INTRODUCCIÓN A LA INDUSTRIA HIDROCARBURÍFERA",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1032",
+    "code": "PETG1032",
+    "name": "INTRODUCCIÓN A LA INDUSTRIA HIDROCARBURÍFERA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "INDG1033",
+        "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1033",
+    "code": "PETG1033",
+    "name": "MATERIA INTEGRADORA PARA PETRÓLEOS",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 38
+  },
+  {
+    "id": "CI004:PETG1034",
+    "code": "PETG1034",
+    "name": "EVALUACIÓN DE FORMACIONES II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "PETG1030",
+        "name": "EVALUACIÓN DE FORMACIONES I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:INDG1061",
+    "code": "INDG1061",
+    "name": "HSEQ EN LA INDUSTRIA HIDROCARBURÍFERA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 25
+  },
+  {
+    "id": "CI004:FISG1008",
+    "code": "FISG1008",
+    "name": "FÍSICA: TERMODINÁMICA Y ELECTRÓNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1020",
+    "code": "PETG1020",
+    "name": "COMPLETACIÓN Y REACONDICIONAMIENTO DE POZOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "PETG1026",
+        "name": "PERFORACIÓN DIRECCIONAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:MATG1045",
+    "code": "MATG1045",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1022",
+    "code": "PETG1022",
+    "name": "INGENIERÍA DE PRODUCCIÓN II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "PETG1021",
+        "name": "INGENIERÍA DE PRODUCCIÓN I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:MATG1046",
+    "code": "MATG1046",
+    "name": "CÁLCULO VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:PETG1021",
+    "code": "PETG1021",
+    "name": "INGENIERÍA DE PRODUCCIÓN I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MECG1049",
+        "name": "MECÁNICA DE FLUIDOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:ECOG1009",
+    "code": "ECOG1009",
+    "name": "EVALUACIÓN DE PROYECTOS HIDROCARBURÍFEROS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 30
+  },
+  {
+    "id": "CI004:FISG1005",
+    "code": "FISG1005",
+    "name": "FÍSICA: MECÁNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:MECG1049",
+    "code": "MECG1049",
+    "name": "MECÁNICA DE FLUIDOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": 15
+  },
+  {
+    "id": "CI004:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI004:CPI:5",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:CPI:17",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:CPI:54",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI004:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

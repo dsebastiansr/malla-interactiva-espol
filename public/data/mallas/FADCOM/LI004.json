@@ -1,0 +1,843 @@
+[
+  {
+    "id": "LI004:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2028",
+    "code": "DING2028",
+    "name": "ERGONOMÍA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DING2024",
+        "name": "DISEÑO DE PRODUCTOS II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2040",
+        "name": "TALLER DE DISEÑO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2029",
+    "code": "DING2029",
+    "name": "ESTRUCTURAS Y MECANISMOS I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "FISG2002",
+        "name": "FÍSICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2030",
+    "code": "DING2030",
+    "name": "ESTRUCTURAS Y MECANISMOS II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "DING2027",
+        "name": "DISEÑO DIGITAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2029",
+        "name": "ESTRUCTURAS Y MECANISMOS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:ECOG2041",
+    "code": "ECOG2041",
+    "name": "GESTIÓN DEL DISEÑO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "DIGG2041",
+        "name": "INVESTIGACIÓN APLICADA AL DISEÑO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2024",
+    "code": "DING2024",
+    "name": "DISEÑO DE PRODUCTOS II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DING2023",
+        "name": "DISEÑO DE PRODUCTOS I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2039",
+        "name": "TALLER DE DISEÑO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2032",
+    "code": "DING2032",
+    "name": "MATERIA INTEGRADORA DE DISEÑO DE PRODUCTOS",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 41
+  },
+  {
+    "id": "LI004:DING2033",
+    "code": "DING2033",
+    "name": "MATERIALES Y MANUFACTURA I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "FISG2002",
+        "name": "FÍSICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2034",
+    "code": "DING2034",
+    "name": "MATERIALES Y MANUFACTURA II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "DING2033",
+        "name": "MATERIALES Y MANUFACTURA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2035",
+    "code": "DING2035",
+    "name": "MATERIALES Y MANUFACTURA III",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "DING2030",
+        "name": "ESTRUCTURAS Y MECANISMOS II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2034",
+        "name": "MATERIALES Y MANUFACTURA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2036",
+    "code": "DING2036",
+    "name": "MODELADO TRIDIMENSIONAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "DING2027",
+        "name": "DISEÑO DIGITAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2037",
+    "code": "DING2037",
+    "name": "PORTAFOLIO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 25
+  },
+  {
+    "id": "LI004:DING2038",
+    "code": "DING2038",
+    "name": "PROTOTIPADO AVANZADO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "DING2035",
+        "name": "MATERIALES Y MANUFACTURA III",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2036",
+        "name": "MODELADO TRIDIMENSIONAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2039",
+    "code": "DING2039",
+    "name": "TALLER DE DISEÑO I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "DING2043",
+        "name": "TEORÍA DEL DISEÑO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2040",
+    "code": "DING2040",
+    "name": "TALLER DE DISEÑO II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "DING2029",
+        "name": "ESTRUCTURAS Y MECANISMOS I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2039",
+        "name": "TALLER DE DISEÑO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2041",
+    "code": "DING2041",
+    "name": "TALLER DE DISEÑO III",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "DING2034",
+        "name": "MATERIALES Y MANUFACTURA II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2040",
+        "name": "TALLER DE DISEÑO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2042",
+    "code": "DING2042",
+    "name": "TALLER DE DISEÑO IV",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "DING2041",
+        "name": "TALLER DE DISEÑO III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2043",
+    "code": "DING2043",
+    "name": "TEORÍA DEL DISEÑO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARTG2024",
+        "name": "ARTE Y TECNOLOGÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "LI004:ADMG2030",
+    "code": "ADMG2030",
+    "name": "FUNDAMENTOS DE MARKETING",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 15
+  },
+  {
+    "id": "LI004:ESTG2004",
+    "code": "ESTG2004",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI004:FISG2002",
+    "code": "FISG2002",
+    "name": "FÍSICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG2009",
+        "name": "MATEMÁTICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:MATG2009",
+    "code": "MATG2009",
+    "name": "MATEMÁTICAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DIGG2041",
+    "code": "DIGG2041",
+    "name": "INVESTIGACIÓN APLICADA AL DISEÑO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "DING2028",
+        "name": "ERGONOMÍA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ESTG2004",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2023",
+    "code": "DING2023",
+    "name": "DISEÑO DE PRODUCTOS I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DING2031",
+        "name": "HISTORIA DEL DISEÑO INDUSTRIAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2043",
+        "name": "TEORÍA DEL DISEÑO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:ARTG2026",
+    "code": "ARTG2026",
+    "name": "DIBUJO II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ARTG2025",
+        "name": "DIBUJO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:ARTG2025",
+    "code": "ARTG2025",
+    "name": "DIBUJO  I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:ARTG2024",
+    "code": "ARTG2024",
+    "name": "ARTE Y TECNOLOGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "MATG2009",
+        "name": "MATEMÁTICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI004:DING2031",
+    "code": "DING2031",
+    "name": "HISTORIA DEL DISEÑO INDUSTRIAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARTG2024",
+        "name": "ARTE Y TECNOLOGÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DIGG2028",
+    "code": "DIGG2028",
+    "name": "DISEÑO ESTRATÉGICO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ECOG2041",
+        "name": "GESTIÓN DEL DISEÑO",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2027",
+    "code": "DING2027",
+    "name": "DISEÑO DIGITAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ARTG2026",
+        "name": "DIBUJO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2026",
+    "code": "DING2026",
+    "name": "DISEÑO DE PRODUCTOS IV",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DING2025",
+        "name": "DISEÑO DE PRODUCTOS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:DING2025",
+    "code": "DING2025",
+    "name": "DISEÑO DE PRODUCTOS III",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DING2028",
+        "name": "ERGONOMÍA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "DING2041",
+        "name": "TALLER DE DISEÑO III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:CPI:1",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:CPI:17",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI004:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

@@ -1,0 +1,850 @@
+[
+  {
+    "id": "CI020:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1037",
+    "code": "ALIG1037",
+    "name": "FUNDAMENTOS DE LA INGENIERÍA EN ALIMENTOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1048",
+        "name": "ECUACIONES DIFERENCIALES Y ÁLGEBRA LINEAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1038",
+    "code": "ALIG1038",
+    "name": "INGENIERÍA DE PROCESOS ALIMENTARIOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ALIG1034",
+        "name": "DISEÑO DE PROCESOS TÉRMICOS I",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1039",
+    "code": "ALIG1039",
+    "name": "INOCUIDAD ALIMENTARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ALIG1041",
+        "name": "MICROBIOLOGÍA DE ALIMENTOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1040",
+    "code": "ALIG1040",
+    "name": "MATERIA INTEGRADORA DE ALIMENTOS",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 42
+  },
+  {
+    "id": "CI020:ALIG1041",
+    "code": "ALIG1041",
+    "name": "MICROBIOLOGÍA DE ALIMENTOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "BIOG1022",
+        "name": "BIOLOGÍA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1042",
+    "code": "ALIG1042",
+    "name": "OPTIMIZACIÓN Y SIMULACIÓN DE PROCESOS ALIMENTARIOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ALIG1038",
+        "name": "INGENIERÍA DE PROCESOS ALIMENTARIOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1034",
+    "code": "ALIG1034",
+    "name": "DISEÑO DE PROCESOS TÉRMICOS I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MECG1068",
+        "name": "TRANSFERENCIA DE CALOR Y MASA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1044",
+    "code": "ALIG1044",
+    "name": "PROCESAMIENTO DE FRUTAS Y VEGETALES",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ALIG1029",
+        "name": "ANÁLISIS DE ALIMENTOS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ALIG1031",
+        "name": "CONTROL DE CALIDAD Y EVALUACIÓN SENSORIAL DE ALIMENTOS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ALIG1036",
+        "name": "FERMENTACIÓN Y ENZIMOLOGÍA ALIMENTARIA",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1029",
+    "code": "ALIG1029",
+    "name": "ANÁLISIS DE ALIMENTOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ALIG1050",
+        "name": "QUÍMICA ALIMENTARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1046",
+    "code": "ALIG1046",
+    "name": "PROCESAMIENTO DE CÁRNICOS, PESCADOS Y MARISCOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ALIG1045",
+        "name": "PROCESAMIENTO DE LÁCTEOS",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:MATG1045",
+    "code": "MATG1045",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:FISG1005",
+    "code": "FISG1005",
+    "name": "FÍSICA: MECÁNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:MATG1046",
+    "code": "MATG1046",
+    "name": "CÁLCULO VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1047",
+    "code": "ALIG1047",
+    "name": "SANIDAD E HIGIENE ALIMENTARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ALIG1046",
+        "name": "PROCESAMIENTO DE CÁRNICOS, PESCADOS Y MARISCOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1050",
+    "code": "ALIG1050",
+    "name": "QUÍMICA ALIMENTARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "QUIG1035",
+        "name": "QUÍMICA ORGÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:MECG1054",
+    "code": "MECG1054",
+    "name": "TERMOFLUIDOS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI020:ESTG1034",
+    "code": "ESTG1034",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:MATG1048",
+    "code": "MATG1048",
+    "name": "ECUACIONES DIFERENCIALES Y ÁLGEBRA LINEAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:QUIG1032",
+    "code": "QUIG1032",
+    "name": "QUÍMICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:QUIG1035",
+    "code": "QUIG1035",
+    "name": "QUÍMICA ORGÁNICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI020:INDG1058",
+    "code": "INDG1058",
+    "name": "SISTEMAS Y PROGRAMACIÓN DE PRODUCCIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ESTG1034",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:MECG1067",
+    "code": "MECG1067",
+    "name": "REOLOGÍA DE FLUIDOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MECG1054",
+        "name": "TERMOFLUIDOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:MECG1068",
+    "code": "MECG1068",
+    "name": "TRANSFERENCIA DE CALOR Y MASA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MECG1067",
+        "name": "REOLOGÍA DE FLUIDOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1045",
+    "code": "ALIG1045",
+    "name": "PROCESAMIENTO DE LÁCTEOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ALIG1044",
+        "name": "PROCESAMIENTO DE FRUTAS Y VEGETALES",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1031",
+    "code": "ALIG1031",
+    "name": "CONTROL DE CALIDAD Y EVALUACIÓN SENSORIAL DE ALIMENTOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ESTG1034",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1030",
+    "code": "ALIG1030",
+    "name": "BIOQUÍMICA ALIMENTARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ALIG1050",
+        "name": "QUÍMICA ALIMENTARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:BIOG1022",
+    "code": "BIOG1022",
+    "name": "BIOLOGÍA GENERAL",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI020:ALIG1043",
+    "code": "ALIG1043",
+    "name": "PROCESAMIENTO DE FARINÁCEOS Y OLEAGINOSAS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ALIG1046",
+        "name": "PROCESAMIENTO DE CÁRNICOS, PESCADOS Y MARISCOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1036",
+    "code": "ALIG1036",
+    "name": "FERMENTACIÓN Y ENZIMOLOGÍA ALIMENTARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ALIG1030",
+        "name": "BIOQUÍMICA ALIMENTARIA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ALIG1039",
+        "name": "INOCUIDAD ALIMENTARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1032",
+    "code": "ALIG1032",
+    "name": "DESARROLLO DE NUEVOS PRODUCTOS ALIMENTICIOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ALIG1043",
+        "name": "PROCESAMIENTO DE FARINÁCEOS Y OLEAGINOSAS",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1033",
+    "code": "ALIG1033",
+    "name": "DISEÑO DE PLANTAS ALIMENTARIAS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ALIG1032",
+        "name": "DESARROLLO DE NUEVOS PRODUCTOS ALIMENTICIOS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ALIG1035",
+        "name": "DISEÑO DE PROCESOS TÉRMICOS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:ALIG1035",
+    "code": "ALIG1035",
+    "name": "DISEÑO DE PROCESOS TÉRMICOS II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ALIG1034",
+        "name": "DISEÑO DE PROCESOS TÉRMICOS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:CPI:6",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:CPI:42",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI020:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

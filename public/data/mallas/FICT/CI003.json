@@ -1,0 +1,798 @@
+[
+  {
+    "id": "CI003:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1026",
+    "code": "MING1026",
+    "name": "GEOMÁTICA MINERA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MING1033",
+        "name": "TOPOGRAFÍA MINERA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1027",
+    "code": "MING1027",
+    "name": "GEOTECNIA MINERA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "MING1035",
+        "name": "GEOMECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:GEOG1041",
+    "code": "GEOG1041",
+    "name": "MINERALOGÍA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1029",
+    "code": "MING1029",
+    "name": "MINERALURGIA Y METALURGIA EXTRACTIVA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MING1041",
+        "name": "PREPARACIÓN MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1030",
+    "code": "MING1030",
+    "name": "PERFORACIÓN Y VOLADURA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "FISG1008",
+        "name": "FÍSICA: TERMODINÁMICA Y ELECTRÓNICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MING1038",
+        "name": "TECNOLOGÍA DE EQUIPAMIENTOS MINEROS",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1031",
+    "code": "MING1031",
+    "name": "PLANEAMIENTO Y DISEÑO MINERO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "MING1040",
+        "name": "EXPLOTACIÓN A CIELO ABIERTO",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MING1024",
+        "name": "EXPLOTACIÓN SUBTERRÁNEA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:CIVG1056",
+    "code": "CIVG1056",
+    "name": "RESISTENCIA DE MATERIALES",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "MECG1060",
+        "name": "ESTÁTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1032",
+    "code": "MING1032",
+    "name": "VENTILACIÓN, DRENAJE Y SISTEMAS ELÉCTRICOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MECG1049",
+        "name": "MECÁNICA DE FLUIDOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1033",
+    "code": "MING1033",
+    "name": "TOPOGRAFÍA MINERA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 10
+  },
+  {
+    "id": "CI003:MECG1060",
+    "code": "MECG1060",
+    "name": "ESTÁTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI003:ESTG1034",
+    "code": "ESTG1034",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MATG1049",
+    "code": "MATG1049",
+    "name": "ÁLGEBRA LINEAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MATG1050",
+    "code": "MATG1050",
+    "name": "ECUACIONES DIFERENCIALES",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1049",
+        "name": "ÁLGEBRA LINEAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1023",
+    "code": "MING1023",
+    "name": "AMBIENTE Y GESTIÓN DE RESIDUOS MINEROS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 30
+  },
+  {
+    "id": "CI003:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1034",
+    "code": "MING1034",
+    "name": "GEOLOGÍA MINERA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MING1036",
+        "name": "PETROGRAFÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1035",
+    "code": "MING1035",
+    "name": "GEOMECÁNICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "GEOG1032",
+        "name": "GEOLOGÍA ESTRUCTURAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CIVG1056",
+        "name": "RESISTENCIA DE MATERIALES",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1036",
+    "code": "MING1036",
+    "name": "PETROGRAFÍA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "MING1025",
+        "name": "FUNDAMENTOS DE MINERÍA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "GEOG1041",
+        "name": "MINERALOGÍA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1037",
+    "code": "MING1037",
+    "name": "SEGURIDAD MINERA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MING1030",
+        "name": "PERFORACIÓN Y VOLADURA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1038",
+    "code": "MING1038",
+    "name": "TECNOLOGÍA DE EQUIPAMIENTOS MINEROS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:QUIG1032",
+    "code": "QUIG1032",
+    "name": "QUÍMICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI003:MING1039",
+    "code": "MING1039",
+    "name": "MATERIA INTEGRADORA DE MINAS",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 41
+  },
+  {
+    "id": "CI003:MING1040",
+    "code": "MING1040",
+    "name": "EXPLOTACIÓN A CIELO ABIERTO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MING1027",
+        "name": "GEOTECNIA MINERA",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "MING1030",
+        "name": "PERFORACIÓN Y VOLADURA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1041",
+    "code": "MING1041",
+    "name": "PREPARACIÓN MECÁNICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": 25
+  },
+  {
+    "id": "CI003:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI003:GEOG1032",
+    "code": "GEOG1032",
+    "name": "GEOLOGÍA ESTRUCTURAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1024",
+    "code": "MING1024",
+    "name": "EXPLOTACIÓN SUBTERRÁNEA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "MING1030",
+        "name": "PERFORACIÓN Y VOLADURA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:FISG1008",
+    "code": "FISG1008",
+    "name": "FÍSICA: TERMODINÁMICA Y ELECTRÓNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MATG1046",
+    "code": "MATG1046",
+    "name": "CÁLCULO VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MING1025",
+    "code": "MING1025",
+    "name": "FUNDAMENTOS DE MINERÍA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MATG1045",
+    "code": "MATG1045",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:FISG1005",
+    "code": "FISG1005",
+    "name": "FÍSICA: MECÁNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:MECG1049",
+    "code": "MECG1049",
+    "name": "MECÁNICA DE FLUIDOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:CPI:38",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:CPI:54",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI003:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

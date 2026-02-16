@@ -1,0 +1,782 @@
+[
+  {
+    "id": "CI002:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1032",
+    "code": "QUIG1032",
+    "name": "QUÍMICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:MATG1053",
+    "code": "MATG1053",
+    "name": "MATEMÁTICA APLICADA A LA INGENIERÍA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1048",
+        "name": "ECUACIONES DIFERENCIALES Y ÁLGEBRA LINEAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1034",
+    "code": "QUIG1034",
+    "name": "FISICOQUÍMICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "FISG1007",
+        "name": "FÍSICA: ELECTRÓNICA Y ÓPTICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "QUIG1033",
+        "name": "QUÍMICA INORGÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1036",
+    "code": "QUIG1036",
+    "name": "QUÍMICA ORGÁNICA I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "QUIG1033",
+        "name": "QUÍMICA INORGÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1037",
+    "code": "QUIG1037",
+    "name": "BALANCE DE MATERIA Y ENERGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1048",
+        "name": "ECUACIONES DIFERENCIALES Y ÁLGEBRA LINEAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "QUIG1034",
+        "name": "FISICOQUÍMICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:MECG1064",
+    "code": "MECG1064",
+    "name": "TERMODINÁMICA I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "QUIG1037",
+        "name": "BALANCE DE MATERIA Y ENERGÍA",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:MECG1065",
+    "code": "MECG1065",
+    "name": "TERMODINÁMICA II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG1053",
+        "name": "MATEMÁTICA APLICADA A LA INGENIERÍA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MECG1064",
+        "name": "TERMODINÁMICA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1038",
+    "code": "QUIG1038",
+    "name": "QUÍMICA ORGÁNICA II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "BIOG1022",
+        "name": "BIOLOGÍA GENERAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "QUIG1036",
+        "name": "QUÍMICA ORGÁNICA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1039",
+    "code": "QUIG1039",
+    "name": "FENÓMENOS DE TRANSPORTE DE MOMENTUM",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "QUIG1037",
+        "name": "BALANCE DE MATERIA Y ENERGÍA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MATG1053",
+        "name": "MATEMÁTICA APLICADA A LA INGENIERÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:ADSG1025",
+    "code": "ADSG1025",
+    "name": "GESTIÓN DE CALIDAD, AMBIENTE Y SEGURIDAD EN LA INDUSTRIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI002:QUIG1040",
+    "code": "QUIG1040",
+    "name": "QUÍMICA ANALÍTICA E INSTRUMENTAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ESTG1034",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1041",
+    "code": "QUIG1041",
+    "name": "FENÓMENOS DE TRANSPORTE DE CALOR",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "QUIG1042",
+        "name": "FENÓMENOS DE TRANSPORTE DE MASA",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1042",
+    "code": "QUIG1042",
+    "name": "FENÓMENOS DE TRANSPORTE DE MASA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "QUIG1039",
+        "name": "FENÓMENOS DE TRANSPORTE DE MOMENTUM",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1043",
+    "code": "QUIG1043",
+    "name": "CINÉTICA Y REACTORES",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MECG1065",
+        "name": "TERMODINÁMICA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1044",
+    "code": "QUIG1044",
+    "name": "OPERACIONES UNITARIAS I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "QUIG1043",
+        "name": "CINÉTICA Y REACTORES",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "ADSG1025",
+        "name": "GESTIÓN DE CALIDAD, AMBIENTE Y SEGURIDAD EN LA INDUSTRIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1045",
+    "code": "QUIG1045",
+    "name": "OPERACIONES UNITARIAS II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "QUIG1046",
+        "name": "DINÁMICA DE PROCESOS Y CONTROL",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI002:QUIG1046",
+    "code": "QUIG1046",
+    "name": "DINÁMICA DE PROCESOS Y CONTROL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "QUIG1041",
+        "name": "FENÓMENOS DE TRANSPORTE DE CALOR",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "QUIG1044",
+        "name": "OPERACIONES UNITARIAS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1047",
+    "code": "QUIG1047",
+    "name": "DISEÑO DE PLANTAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "QUIG1045",
+        "name": "OPERACIONES UNITARIAS II",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:QUIG1050",
+    "code": "QUIG1050",
+    "name": "MATERIA INTEGRADORA DE INGENIERÍA QUÍMICA",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 38
+  },
+  {
+    "id": "CI002:ADSG1029",
+    "code": "ADSG1029",
+    "name": "TRATAMIENTO DE AGUAS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 28
+  },
+  {
+    "id": "CI002:QUIG1033",
+    "code": "QUIG1033",
+    "name": "QUÍMICA INORGÁNICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:FISG1007",
+    "code": "FISG1007",
+    "name": "FÍSICA: ELECTRÓNICA Y ÓPTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:FISG1005",
+    "code": "FISG1005",
+    "name": "FÍSICA: MECÁNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:MATG1048",
+    "code": "MATG1048",
+    "name": "ECUACIONES DIFERENCIALES Y ÁLGEBRA LINEAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:ESTG1034",
+    "code": "ESTG1034",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:MATG1045",
+    "code": "MATG1045",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI002:MATG1046",
+    "code": "MATG1046",
+    "name": "CÁLCULO VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI002:BIOG1022",
+    "code": "BIOG1022",
+    "name": "BIOLOGÍA GENERAL",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "QUIG1032",
+        "name": "QUÍMICA GENERAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:CPI:4",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:CPI:27",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI002:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

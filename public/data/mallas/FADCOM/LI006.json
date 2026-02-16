@@ -1,0 +1,805 @@
+[
+  {
+    "id": "LI006:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2030",
+    "code": "CADG2030",
+    "name": "EDICIÓN Y MONTAJE",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "CADG2034",
+        "name": "NARRATIVA AUDIOVISUAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2031",
+    "code": "CADG2031",
+    "name": "FOTOGRAFÍA PARA MEDIOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARTG2029",
+        "name": "HISTORIA DEL CINE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2032",
+    "code": "CADG2032",
+    "name": "GUION",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "DIGG2039",
+        "name": "REDACCIÓN CREATIVA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ARTG2028",
+    "code": "ARTG2028",
+    "name": "HISTORIA DEL ARTE",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARTG2024",
+        "name": "ARTE Y TECNOLOGÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2029",
+    "code": "CADG2029",
+    "name": "DISEÑO DE PRODUCCIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CADG2036",
+        "name": "PREPRODUCCIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ARTG2030",
+    "code": "ARTG2030",
+    "name": "INVESTIGACIÓN AUDIOVISUAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ESTG2004",
+        "name": "ESTADÍSTICA",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "ARTG2028",
+        "name": "HISTORIA DEL ARTE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2033",
+    "code": "CADG2033",
+    "name": "LEGISLACIÓN AUDIOVISUAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "CADG2037",
+        "name": "PRODUCCIÓN EJECUTIVA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2034",
+    "code": "CADG2034",
+    "name": "NARRATIVA AUDIOVISUAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "COMG2002",
+        "name": "TEORÍA DE LA COMUNICACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2035",
+    "code": "CADG2035",
+    "name": "POSTPRODUCCIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "CADG2038",
+        "name": "PRODUCCIÓN PARA NUEVOS MEDIOS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CADG2040",
+        "name": "PROYECTO AUDIOVISUAL II",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2036",
+    "code": "CADG2036",
+    "name": "PREPRODUCCIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ARTG2026",
+        "name": "DIBUJO II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2037",
+    "code": "CADG2037",
+    "name": "PRODUCCIÓN EJECUTIVA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "CADG2038",
+        "name": "PRODUCCIÓN PARA NUEVOS MEDIOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ARTG2029",
+    "code": "ARTG2029",
+    "name": "HISTORIA DEL CINE",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARTG2023",
+        "name": "ARTE Y CIENCIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2039",
+    "code": "CADG2039",
+    "name": "PROYECTO AUDIOVISUAL I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "CADG2030",
+        "name": "EDICIÓN Y MONTAJE",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CADG2032",
+        "name": "GUION",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2040",
+    "code": "CADG2040",
+    "name": "PROYECTO AUDIOVISUAL II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "CADG2039",
+        "name": "PROYECTO AUDIOVISUAL I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:COMG2002",
+    "code": "COMG2002",
+    "name": "TEORÍA DE LA COMUNICACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ARTG2028",
+        "name": "HISTORIA DEL ARTE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2042",
+    "code": "CADG2042",
+    "name": "DISEÑO DE SONIDO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CADG2029",
+        "name": "DISEÑO DE PRODUCCIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2043",
+    "code": "CADG2043",
+    "name": "MATERIA INTEGRADORA DE PRODUCCIÓN PARA MEDIOS DE COMUNICACIÓN",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 40
+  },
+  {
+    "id": "LI006:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "LI006:ESTG2004",
+    "code": "ESTG2004",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI006:DIGG2039",
+    "code": "DIGG2039",
+    "name": "REDACCIÓN CREATIVA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARTG2030",
+        "name": "INVESTIGACIÓN AUDIOVISUAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CADG2034",
+        "name": "NARRATIVA AUDIOVISUAL",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:MATG2009",
+    "code": "MATG2009",
+    "name": "MATEMÁTICAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2046",
+    "code": "CADG2046",
+    "name": "VIDEOGRAFÍA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "CADG2029",
+        "name": "DISEÑO DE PRODUCCIÓN",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CADG2031",
+        "name": "FOTOGRAFÍA PARA MEDIOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2028",
+    "code": "CADG2028",
+    "name": "DIRECCIÓN ESCÉNICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CADG2042",
+        "name": "DISEÑO DE SONIDO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ARTG2026",
+    "code": "ARTG2026",
+    "name": "DIBUJO II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ARTG2025",
+        "name": "DIBUJO I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2027",
+    "code": "CADG2027",
+    "name": "DIRECCIÓN AUDIOVISUAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CADG2028",
+        "name": "DIRECCIÓN ESCÉNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ARTG2025",
+    "code": "ARTG2025",
+    "name": "DIBUJO  I",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ARTG2024",
+    "code": "ARTG2024",
+    "name": "ARTE Y TECNOLOGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG2009",
+        "name": "MATEMÁTICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2026",
+    "code": "CADG2026",
+    "name": "ANIMACIÓN II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "CADG2025",
+        "name": "ANIMACIÓN I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CADG2025",
+    "code": "CADG2025",
+    "name": "ANIMACIÓN I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "CADG2046",
+        "name": "VIDEOGRAFÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ARTG2023",
+    "code": "ARTG2023",
+    "name": "ARTE Y CIENCIA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI006:CADG2038",
+    "code": "CADG2038",
+    "name": "PRODUCCIÓN PARA NUEVOS MEDIOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "CADG2032",
+        "name": "GUION",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CPI:2",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CPI:10",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI006:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

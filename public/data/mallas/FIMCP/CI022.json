@@ -1,0 +1,905 @@
+[
+  {
+    "id": "CI022:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1013",
+    "code": "MCTG1013",
+    "name": "DISEÑO MECATRÓNICO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MCTG1015",
+        "name": "DISEÑO Y SIMULACIÓN DE MÁQUINAS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "EYAG1038",
+        "name": "INSTRUMENTACIÓN INDUSTRIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1014",
+    "code": "MCTG1014",
+    "name": "DISEÑO Y MANUFACTURA ASISTIDA POR COMPUTADORA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MCTG1017",
+        "name": "INTRODUCCIÓN A LA MANUFACTURA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1015",
+    "code": "MCTG1015",
+    "name": "DISEÑO Y SIMULACIÓN DE MÁQUINAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MCTG1012",
+        "name": "DISEÑO DE ELEMENTOS DE MÁQUINAS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MECG1051",
+        "name": "MECÁNICA DE MAQUINARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1016",
+    "code": "MCTG1016",
+    "name": "HIDRÁULICA Y NEUMÁTICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "EYAG1038",
+        "name": "INSTRUMENTACIÓN INDUSTRIAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MECG1054",
+        "name": "TERMOFLUIDOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1017",
+    "code": "MCTG1017",
+    "name": "INTRODUCCIÓN A LA MANUFACTURA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MCTG1012",
+        "name": "DISEÑO DE ELEMENTOS DE MÁQUINAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1018",
+    "code": "MCTG1018",
+    "name": "INTRODUCCIÓN A LA MECATRÓNICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "FISG1006",
+        "name": "FÍSICA: ELECTRICIDAD Y MAGNETISMO",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MECG1051",
+    "code": "MECG1051",
+    "name": "MECÁNICA DE MAQUINARIA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MECG1052",
+        "name": "MECÁNICA VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MECG1052",
+    "code": "MECG1052",
+    "name": "MECÁNICA VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MATG1045",
+    "code": "MATG1045",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:FISG1005",
+    "code": "FISG1005",
+    "name": "FÍSICA: MECÁNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:FISG1006",
+    "code": "FISG1006",
+    "name": "FÍSICA: ELECTRICIDAD Y MAGNETISMO",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MATG1046",
+    "code": "MATG1046",
+    "name": "CÁLCULO VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1019",
+    "code": "MCTG1019",
+    "name": "SISTEMAS BIOMECATRÓNICOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "EYAG1038",
+        "name": "INSTRUMENTACIÓN INDUSTRIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1020",
+    "code": "MCTG1020",
+    "name": "SISTEMAS FLEXIBLES DE MANUFACTURA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MCTG1014",
+        "name": "DISEÑO Y MANUFACTURA ASISTIDA POR COMPUTADORA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ESTG1034",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1021",
+    "code": "MCTG1021",
+    "name": "ROBOTS MÓVILES Y ARTICULADOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 30
+  },
+  {
+    "id": "CI022:MCTG1022",
+    "code": "MCTG1022",
+    "name": "SISTEMAS DE MONITOREO Y CONTROL INDUSTRIAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MECG1055",
+        "name": "SISTEMAS DE CONTROL APLICADOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MECG1054",
+    "code": "MECG1054",
+    "name": "TERMOFLUIDOS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI022:MECG1055",
+    "code": "MECG1055",
+    "name": "SISTEMAS DE CONTROL APLICADOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1050",
+        "name": "ECUACIONES DIFERENCIALES",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ELEG1034",
+        "name": "ELECTRICIDAD BÁSICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MECG1052",
+        "name": "MECÁNICA VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI022:ESTG1034",
+    "code": "ESTG1034",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MATG1049",
+    "code": "MATG1049",
+    "name": "ÁLGEBRA LINEAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MATG1050",
+    "code": "MATG1050",
+    "name": "ECUACIONES DIFERENCIALES",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1049",
+        "name": "ÁLGEBRA LINEAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MATG1052",
+    "code": "MATG1052",
+    "name": "MÉTODOS NUMÉRICOS",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1050",
+        "name": "ECUACIONES DIFERENCIALES",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MATG1054",
+    "code": "MATG1054",
+    "name": "MATEMÁTICAS SUPERIORES",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI022:TLMG1037",
+    "code": "TLMG1037",
+    "name": "PROGRAMACIÓN DE SISTEMAS TELEMÁTICOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "MCTG1018",
+        "name": "INTRODUCCIÓN A LA MECATRÓNICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1052",
+        "name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1028",
+    "code": "MCTG1028",
+    "name": "MATERIA INTEGRADORA DE MECATRÓNICA",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 9,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 44
+  },
+  {
+    "id": "CI022:EYAG1044",
+    "code": "EYAG1044",
+    "name": "SISTEMAS DIGITALES I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "FISG1006",
+        "name": "FÍSICA: ELECTRICIDAD Y MAGNETISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:CCPG1052",
+    "code": "CCPG1052",
+    "name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:EYAG1040",
+    "code": "EYAG1040",
+    "name": "PRINCIPIOS DE ELECTRÓNICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ELEG1034",
+        "name": "ELECTRICIDAD BÁSICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:EYAG1038",
+    "code": "EYAG1038",
+    "name": "INSTRUMENTACIÓN INDUSTRIAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "EYAG1040",
+        "name": "PRINCIPIOS DE ELECTRÓNICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MECG1055",
+        "name": "SISTEMAS DE CONTROL APLICADOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:ELEG1034",
+    "code": "ELEG1034",
+    "name": "ELECTRICIDAD BÁSICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "FISG1006",
+        "name": "FÍSICA: ELECTRICIDAD Y MAGNETISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI022:MCTG1012",
+    "code": "MCTG1012",
+    "name": "DISEÑO DE ELEMENTOS DE MÁQUINAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MECG1041",
+        "name": "DIBUJO PARA INGENIERÍA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MECG1052",
+        "name": "MECÁNICA VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MECG1041",
+    "code": "MECG1041",
+    "name": "DIBUJO PARA INGENIERÍA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:MCTG1011",
+    "code": "MCTG1011",
+    "name": "ACTUADORES MECATRÓNICOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "EYAG1040",
+        "name": "PRINCIPIOS DE ELECTRÓNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:EYAG1046",
+    "code": "EYAG1046",
+    "name": "SISTEMAS EMBEBIDOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "TLMG1037",
+        "name": "PROGRAMACIÓN DE SISTEMAS TELEMÁTICOS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "EYAG1044",
+        "name": "SISTEMAS DIGITALES I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:CPI:1",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:CPI:49",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:CPI:71",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 9,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI022:CPI:79",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 9,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

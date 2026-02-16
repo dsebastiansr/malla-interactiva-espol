@@ -1,0 +1,918 @@
+[
+  {
+    "id": "CI014:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1037",
+    "code": "ELEG1037",
+    "name": "GESTIÓN Y MARCO REGULATORIO DEL SECTOR ELÉCTRICO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 9,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ELEG1033",
+        "name": "DISTRIBUCIÓN ELÉCTRICA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1038",
+    "code": "ELEG1038",
+    "name": "INSTALACIONES ELÉCTRICAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ELEG1030",
+        "name": "CIRCUITOS ELÉCTRICOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1039",
+    "code": "ELEG1039",
+    "name": "LÍNEAS DE TRANSMISIÓN Y SUBESTACIONES",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ELEG1050",
+        "name": "SISTEMAS DE POTENCIA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1040",
+    "code": "ELEG1040",
+    "name": "MAQUINARIA ELÉCTRICA I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ELEG1028",
+        "name": "ANÁLISIS DE REDES ELÉCTRICAS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ELEG1051",
+        "name": "TEORÍA ELECTROMAGNÉTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1041",
+    "code": "ELEG1041",
+    "name": "MAQUINARIA ELÉCTRICA II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ELEG1040",
+        "name": "MAQUINARIA ELÉCTRICA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1042",
+    "code": "ELEG1042",
+    "name": "MATERIA INTEGRADORA DE ELECTRICIDAD",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 9,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 44
+  },
+  {
+    "id": "CI014:ELEG1044",
+    "code": "ELEG1044",
+    "name": "OPERACIÓN DE SISTEMAS DE POTENCIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ELEG1050",
+        "name": "SISTEMAS DE POTENCIA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1046",
+    "code": "ELEG1046",
+    "name": "PLANIFICACIÓN DE SISTEMAS DE POTENCIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ELEG1044",
+        "name": "OPERACIÓN DE SISTEMAS DE POTENCIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:EYAG1040",
+    "code": "EYAG1040",
+    "name": "PRINCIPIOS DE ELECTRÓNICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ELEG1030",
+        "name": "CIRCUITOS ELÉCTRICOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1047",
+    "code": "ELEG1047",
+    "name": "PROTECCIONES ELÉCTRICAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ELEG1050",
+        "name": "SISTEMAS DE POTENCIA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:EYAG1043",
+    "code": "EYAG1043",
+    "name": "SISTEMAS DE CONTROL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ELEG1028",
+        "name": "ANÁLISIS DE REDES ELÉCTRICAS",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1049",
+    "code": "ELEG1049",
+    "name": "SISTEMAS DE POTENCIA I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ELEG1028",
+        "name": "ANÁLISIS DE REDES ELÉCTRICAS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MATG1052",
+        "name": "MÉTODOS NUMÉRICOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1050",
+    "code": "ELEG1050",
+    "name": "SISTEMAS DE POTENCIA II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ELEG1041",
+        "name": "MAQUINARIA ELÉCTRICA II",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "ELEG1049",
+        "name": "SISTEMAS DE POTENCIA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:EYAG1044",
+    "code": "EYAG1044",
+    "name": "SISTEMAS DIGITALES I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "FISG1006",
+        "name": "FÍSICA: ELECTRICIDAD Y MAGNETISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1051",
+    "code": "ELEG1051",
+    "name": "TEORÍA ELECTROMAGNÉTICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "FISG1006",
+        "name": "FÍSICA: ELECTRICIDAD Y MAGNETISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:MATG1045",
+    "code": "MATG1045",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:FISG1005",
+    "code": "FISG1005",
+    "name": "FÍSICA: MECÁNICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:FISG1006",
+    "code": "FISG1006",
+    "name": "FÍSICA: ELECTRICIDAD Y MAGNETISMO",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "CO-REQUISITO"
+      },
+      {
+        "code": "FISG1005",
+        "name": "FÍSICA: MECÁNICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:MATG1046",
+    "code": "MATG1046",
+    "name": "CÁLCULO VECTORIAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "CI014:ESTG1034",
+    "code": "ESTG1034",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:MATG1049",
+    "code": "MATG1049",
+    "name": "ÁLGEBRA LINEAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:MATG1050",
+    "code": "MATG1050",
+    "name": "ECUACIONES DIFERENCIALES",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1049",
+        "name": "ÁLGEBRA LINEAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:MATG1052",
+    "code": "MATG1052",
+    "name": "MÉTODOS NUMÉRICOS",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:MATG1054",
+    "code": "MATG1054",
+    "name": "MATEMÁTICAS SUPERIORES",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1046",
+        "name": "CÁLCULO VECTORIAL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:QUIG1032",
+    "code": "QUIG1032",
+    "name": "QUÍMICA GENERAL",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI014:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1035",
+    "code": "ELEG1035",
+    "name": "ENERGÍAS RENOVABLES",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "EYAG1035",
+        "name": "ELECTRÓNICA DE POTENCIA I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ELEG1041",
+        "name": "MAQUINARIA ELÉCTRICA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1031",
+    "code": "ELEG1031",
+    "name": "CONTROLES ELÉCTRICOS INDUSTRIALES",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ELEG1041",
+        "name": "MAQUINARIA ELÉCTRICA II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "EYAG1044",
+        "name": "SISTEMAS DIGITALES I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1030",
+    "code": "ELEG1030",
+    "name": "CIRCUITOS ELÉCTRICOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "FISG1006",
+        "name": "FÍSICA: ELECTRICIDAD Y MAGNETISMO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1029",
+    "code": "ELEG1029",
+    "name": "CENTRALES ELÉCTRICAS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ELEG1041",
+        "name": "MAQUINARIA ELÉCTRICA II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "EYAG1043",
+        "name": "SISTEMAS DE CONTROL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1028",
+    "code": "ELEG1028",
+    "name": "ANÁLISIS DE REDES ELÉCTRICAS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ELEG1030",
+        "name": "CIRCUITOS ELÉCTRICOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1036",
+    "code": "ELEG1036",
+    "name": "ESTABILIDAD Y CONTROL DE SISTEMAS DE POTENCIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ELEG1050",
+        "name": "SISTEMAS DE POTENCIA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1033",
+    "code": "ELEG1033",
+    "name": "DISTRIBUCIÓN ELÉCTRICA II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ELEG1032",
+        "name": "DISTRIBUCIÓN ELÉCTRICA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "CI014:EYAG1035",
+    "code": "EYAG1035",
+    "name": "ELECTRÓNICA DE POTENCIA I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ELEG1040",
+        "name": "MAQUINARIA ELÉCTRICA I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "EYAG1040",
+        "name": "PRINCIPIOS DE ELECTRÓNICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "EYAG1043",
+        "name": "SISTEMAS DE CONTROL",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:ELEG1032",
+    "code": "ELEG1032",
+    "name": "DISTRIBUCIÓN ELÉCTRICA I",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ELEG1049",
+        "name": "SISTEMAS DE POTENCIA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:CPI:6",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:CPI:14",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:CPI:71",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 9,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "CI014:CPI:79",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 9,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

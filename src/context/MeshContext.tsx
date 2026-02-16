@@ -23,13 +23,15 @@ type MeshContextValue = {
   setCareer: (code: string) => void;
 
   courses: Course[] | null;
-  passed: PassedMap;
+  passed: passedMap;
   togglePassed: (id: string) => void;
   resetPassed: () => void;
 
   // selectors útiles (para que no lo recalcules en 10 componentes)
   passedCount: number;
   passedCredits: number;
+  faculty: string;
+  setFaculty: (faculty: string) => void;
 };
 
 const MeshContext = createContext<MeshContextValue | null>(null);
@@ -42,26 +44,46 @@ export function MeshProvider({ children }: { children: React.ReactNode }) {
   const [index, setIndex] = useState<CareerIndexItem[]>([]);
   const [career, setCareer] = useState("CI013");
   const [courses, setCourses] = useState<Course[] | null>(null);
-  const [passed, setPassed] = useState<PassedMap>({});
+  const [passed, setPassed] = useState<passedMap>({});
+  const [faculty, setFaculty] = useState<string>("");
+
 
   // 1) cargar index una sola vez
   useEffect(() => {
     fetchIndex().then(setIndex).catch(console.error);
   }, []);
 
+  useEffect(() => {
+    if (index.length === 0) return;
+
+    // init faculty si está vacío
+    if (!faculty) {
+      setFaculty(index[0].faculty);
+      return;
+    }
+
+    // si la carrera actual no pertenece a la facultad, cámbiala
+    const current = index.find((x) => x.code === career);
+    const valid = current && current.faculty === faculty;
+
+    if (!valid) {
+      const first = index.find((x) => x.faculty === faculty);
+      if (first) setCareer(first.code);
+    }
+  }, [index, faculty, career]);
+
   // 2) cargar malla cada vez que cambia career + cargar progreso local
   useEffect(() => {
     setCourses(null);
-
-    fetchMalla(career)
+    fetchMalla(career, faculty)
       .then((data) => {
         setCourses(resolveGridCollisions(data));
 
         const raw = localStorage.getItem(storageKey(career));
-        setPassed(raw ? (JSON.parse(raw) as PassedMap) : {});
+        setPassed(raw ? (JSON.parse(raw) as passedMap) : {});
       })
       .catch(console.error);
-  }, [career]);
+  }, [career, faculty]);
 
   function togglePassed(id: string) {
     setPassed((prev) => {
@@ -107,6 +129,8 @@ export function MeshProvider({ children }: { children: React.ReactNode }) {
     resetPassed,
     passedCount,
     passedCredits,
+    faculty,
+    setFaculty,
   };
 
   return <MeshContext.Provider value={value}>{children}</MeshContext.Provider>;

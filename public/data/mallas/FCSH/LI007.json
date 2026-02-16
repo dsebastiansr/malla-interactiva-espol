@@ -1,0 +1,844 @@
+[
+  {
+    "id": "LI007:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:JURG2005",
+    "code": "JURG2005",
+    "name": "DERECHO SOCIETARIO Y LABORAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ADMG2029",
+        "name": "FUNDAMENTOS DE ADMINISTRACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ECOG2047",
+    "code": "ECOG2047",
+    "name": "ECONOMÍA GERENCIAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ECOG2067",
+        "name": "INTRODUCCIÓN A LA ECONOMÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2028",
+    "code": "ADMG2028",
+    "name": "ESTRATEGIAS CORPORATIVAS Y DE NEGOCIOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ADMG2032",
+        "name": "GESTIÓN COMERCIAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ADMG2033",
+        "name": "GESTIÓN DE MARKETING",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2029",
+    "code": "ADMG2029",
+    "name": "FUNDAMENTOS DE ADMINISTRACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "CCAG2022",
+        "name": "ESTUDIO DE CASOS DE CIENCIAS SOCIALES",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ECOG2067",
+        "name": "INTRODUCCIÓN A LA ECONOMÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2030",
+    "code": "ADMG2030",
+    "name": "FUNDAMENTOS DE MARKETING",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": 15
+  },
+  {
+    "id": "LI007:MATG1047",
+    "code": "MATG1047",
+    "name": "CÁLCULO DE VARIAS VARIABLES",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ESTG1036",
+    "code": "ESTG1036",
+    "name": "ESTADÍSTICA I",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG1047",
+        "name": "CÁLCULO DE VARIAS VARIABLES",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ESTG1037",
+    "code": "ESTG1037",
+    "name": "ESTADÍSTICA II",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ESTG1036",
+        "name": "ESTADÍSTICA I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2031",
+    "code": "ADMG2031",
+    "name": "MATERIA INTEGRADORA DE ADMINISTRACIÓN DE EMPRESAS",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 42
+  },
+  {
+    "id": "LI007:CCAG2022",
+    "code": "CCAG2022",
+    "name": "ESTUDIO DE CASOS DE CIENCIAS SOCIALES",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ECOG2055",
+    "code": "ECOG2055",
+    "name": "FUNDAMENTOS DE INVERSIONES",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ECOG2042",
+        "name": "ANÁLISIS FINANCIERO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ECOG2063",
+    "code": "ECOG2063",
+    "name": "MACROECONOMÍA I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ECOG2067",
+        "name": "INTRODUCCIÓN A LA ECONOMÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:MATG2008",
+    "code": "MATG2008",
+    "name": "MATEMÁTICAS FINANCIERAS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 5
+  },
+  {
+    "id": "LI007:ADMG2032",
+    "code": "ADMG2032",
+    "name": "GESTIÓN COMERCIAL",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ADMG2025",
+        "name": "COMPORTAMIENTO ORGANIZACIONAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ADMG2034",
+        "name": "GESTIÓN DE RECURSOS HUMANOS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCPG1054",
+        "name": "SISTEMAS DE INFORMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2033",
+    "code": "ADMG2033",
+    "name": "GESTIÓN DE MARKETING",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ADMG2035",
+        "name": "INVESTIGACIÓN DE MERCADOS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2034",
+    "code": "ADMG2034",
+    "name": "GESTIÓN DE RECURSOS HUMANOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ADMG2029",
+        "name": "FUNDAMENTOS DE ADMINISTRACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ECOG2065",
+    "code": "ECOG2065",
+    "name": "GESTIÓN TRIBUTARIA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "AUDG2033",
+        "name": "CONTABILIDAD DE COSTOS",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ECOG2055",
+        "name": "FUNDAMENTOS DE INVERSIONES",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2035",
+    "code": "ADMG2035",
+    "name": "INVESTIGACIÓN DE MERCADOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ESTG1037",
+        "name": "ESTADÍSTICA II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ADMG2030",
+        "name": "FUNDAMENTOS DE MARKETING",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:CCAG2023",
+    "code": "CCAG2023",
+    "name": "SOCIOLOGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 15
+  },
+  {
+    "id": "LI007:ADMG2036",
+    "code": "ADMG2036",
+    "name": "PLANIFICACIÓN ESTRATÉGICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ADMG2033",
+        "name": "GESTIÓN DE MARKETING",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "CCAG2023",
+        "name": "SOCIOLOGÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ECOG2066",
+    "code": "ECOG2066",
+    "name": "PLANIFICACIÓN Y CONTROL FINANCIERO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ECOG2065",
+        "name": "GESTIÓN TRIBUTARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ECOG2067",
+    "code": "ECOG2067",
+    "name": "INTRODUCCIÓN A LA ECONOMÍA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2037",
+    "code": "ADMG2037",
+    "name": "GESTIÓN DE PROYECTOS",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "ECOG2065",
+        "name": "GESTIÓN TRIBUTARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI007:INDG1060",
+    "code": "INDG1060",
+    "name": "ADMINISTRACIÓN LOGÍSTICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ADMG2022",
+        "name": "ADMINISTRACIÓN DE OPERACIONES",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2025",
+    "code": "ADMG2025",
+    "name": "COMPORTAMIENTO ORGANIZACIONAL",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ECOG2047",
+        "name": "ECONOMÍA GERENCIAL",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ECOG2063",
+        "name": "MACROECONOMÍA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2024",
+    "code": "ADMG2024",
+    "name": "COMERCIO EXTERIOR",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ECOG2065",
+        "name": "GESTIÓN TRIBUTARIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "LI007:ECOG2042",
+    "code": "ECOG2042",
+    "name": "ANÁLISIS FINANCIERO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "AUDG2034",
+        "name": "CONTABILIDAD FINANCIERA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MATG2008",
+        "name": "MATEMÁTICAS FINANCIERAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:MATG1045",
+    "code": "MATG1045",
+    "name": "CÁLCULO DE UNA VARIABLE",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG2022",
+    "code": "ADMG2022",
+    "name": "ADMINISTRACIÓN DE OPERACIONES",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ADMG2029",
+        "name": "FUNDAMENTOS DE ADMINISTRACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:CCPG1054",
+    "code": "CCPG1054",
+    "name": "SISTEMAS DE INFORMACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": 15
+  },
+  {
+    "id": "LI007:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "MATG1045",
+        "name": "CÁLCULO DE UNA VARIABLE",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI007:AUDG2033",
+    "code": "AUDG2033",
+    "name": "CONTABILIDAD DE COSTOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 6
+    },
+    "requirements": [
+      {
+        "code": "AUDG2034",
+        "name": "CONTABILIDAD FINANCIERA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:AUDG2034",
+    "code": "AUDG2034",
+    "name": "CONTABILIDAD FINANCIERA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:CPI:2",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:CPI:19",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:CPI:47",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:CPI:55",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 7,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:CPI:63",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI007:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

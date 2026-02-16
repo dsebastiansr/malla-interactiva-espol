@@ -1,0 +1,765 @@
+[
+  {
+    "id": "LI003:INDG1033",
+    "code": "INDG1033",
+    "name": "ANÁLISIS Y RESOLUCIÓN DE PROBLEMAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2026",
+    "code": "ARQG2026",
+    "name": "LABORATORIO DE ARQUEOLOGÍA II",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 8,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ARQG2043",
+        "name": "CAMPO DE ARQUEOLOGÍA II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2028",
+    "code": "ARQG2028",
+    "name": "CAMPO DE ANTROPOLOGÍA SOCIOCULTURAL II",
+    "unit": "PROFESIONAL",
+    "credits": 12,
+    "grid": {
+      "row": 7,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARQG2036",
+        "name": "CAMPO DE ANTROPOLOGÍA SOCIOCULTURAL I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2029",
+    "code": "ARQG2029",
+    "name": "LABORATORIO DE ARQUEOLOGÍA I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ARQG2030",
+        "name": "CAMPO DE ARQUEOLOGÍA I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ESTG2004",
+        "name": "ESTADÍSTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2030",
+    "code": "ARQG2030",
+    "name": "CAMPO DE ARQUEOLOGÍA I",
+    "unit": "PROFESIONAL",
+    "credits": 15,
+    "grid": {
+      "row": 5,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ARQG2031",
+        "name": "ARQUEOLOGÍA ANDINOAMERICANA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARQG2040",
+        "name": "GEOMÁTICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2031",
+    "code": "ARQG2031",
+    "name": "ARQUEOLOGÍA ANDINOAMERICANA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARQG2025",
+        "name": "ARQUEOLOGÍA DEL ECUADOR II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARQG2035",
+        "name": "ARQUEOLOGÍA SOCIAL LATINOAMERICANA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2032",
+    "code": "ARQG2032",
+    "name": "ARQUEOLOGÍA DE LAS TIERRAS BAJAS DE SUDAMÉRICA Y DEL CARIBE",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ARQG2025",
+        "name": "ARQUEOLOGÍA DEL ECUADOR II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARQG2038",
+        "name": "PRIMER POBLAMIENTO AMERICANO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2033",
+    "code": "ARQG2033",
+    "name": "ARQUEOLOGÍA DEL ECUADOR I",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARQG2042",
+        "name": "INTRODUCCIÓN A LA ANTROPOLOGÍA Y ARQUEOLOGÍA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "HISG2002",
+        "name": "INTRODUCCIÓN A LA HISTORIA Y ETNOHISTORIA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2034",
+    "code": "ARQG2034",
+    "name": "ARQUEOLOGÍA DEL VIEJO MUNDO",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARQG2042",
+        "name": "INTRODUCCIÓN A LA ANTROPOLOGÍA Y ARQUEOLOGÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2035",
+    "code": "ARQG2035",
+    "name": "ARQUEOLOGÍA SOCIAL LATINOAMERICANA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARQG2039",
+        "name": "TEORÍA ANTROPOLÓGICA Y ARQUEOLÓGICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2036",
+    "code": "ARQG2036",
+    "name": "CAMPO DE ANTROPOLOGÍA SOCIOCULTURAL I",
+    "unit": "PROFESIONAL",
+    "credits": 12,
+    "grid": {
+      "row": 5,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARQG2025",
+        "name": "ARQUEOLOGÍA DEL ECUADOR II",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARQG2039",
+        "name": "TEORÍA ANTROPOLÓGICA Y ARQUEOLÓGICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:IDIG1006",
+    "code": "IDIG1006",
+    "name": "INGLÉS I",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:IDIG1007",
+    "code": "IDIG1007",
+    "name": "INGLÉS II",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1006",
+        "name": "INGLÉS I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:IDIG1008",
+    "code": "IDIG1008",
+    "name": "INGLÉS III",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1007",
+        "name": "INGLÉS II",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:IDIG1009",
+    "code": "IDIG1009",
+    "name": "INGLÉS IV",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1008",
+        "name": "INGLÉS III",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:IDIG1010",
+    "code": "IDIG1010",
+    "name": "INGLÉS V",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 7
+    },
+    "requirements": [
+      {
+        "code": "IDIG1009",
+        "name": "INGLÉS IV",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2037",
+    "code": "ARQG2037",
+    "name": "ORÍGENES DE LOS ESTADOS PREHISPÁNICOS",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 6,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARQG2031",
+        "name": "ARQUEOLOGÍA ANDINOAMERICANA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARQG2021",
+        "name": "ARQUEOLOGÍA DE MESOAMÉRICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2038",
+    "code": "ARQG2038",
+    "name": "PRIMER POBLAMIENTO AMERICANO",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARQG2034",
+        "name": "ARQUEOLOGÍA DEL VIEJO MUNDO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2039",
+    "code": "ARQG2039",
+    "name": "TEORÍA ANTROPOLÓGICA Y ARQUEOLÓGICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARQG2042",
+        "name": "INTRODUCCIÓN A LA ANTROPOLOGÍA Y ARQUEOLOGÍA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2040",
+    "code": "ARQG2040",
+    "name": "GEOMÁTICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 5
+    },
+    "requirements": [
+      {
+        "code": "ARQG2041",
+        "name": "GEOGRAFÍA FÍSICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "MATG2007",
+        "name": "MATEMÁTICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ADSG1026",
+    "code": "ADSG1026",
+    "name": "CIENCIAS DE LA SOSTENIBILIDAD",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 6
+    },
+    "requirements": [],
+    "approved_count_requirement": 20
+  },
+  {
+    "id": "LI003:ARQG2041",
+    "code": "ARQG2041",
+    "name": "GEOGRAFÍA FÍSICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 4
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:HISG2002",
+    "code": "HISG2002",
+    "name": "INTRODUCCIÓN A LA HISTORIA Y ETNOHISTORIA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2042",
+    "code": "ARQG2042",
+    "name": "INTRODUCCIÓN A LA ANTROPOLOGÍA Y ARQUEOLOGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 1,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2043",
+    "code": "ARQG2043",
+    "name": "CAMPO DE ARQUEOLOGÍA II",
+    "unit": "PROFESIONAL",
+    "credits": 21,
+    "grid": {
+      "row": 7,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "ARQG2032",
+        "name": "ARQUEOLOGÍA DE LAS TIERRAS BAJAS DE SUDAMÉRICA Y DEL CARIBE",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARQG2029",
+        "name": "LABORATORIO DE ARQUEOLOGÍA I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2020",
+    "code": "ARQG2020",
+    "name": "ANTROPOLOGÍA BIOLÓGICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 4,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARQG2034",
+        "name": "ARQUEOLOGÍA DEL VIEJO MUNDO",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ESTG2004",
+    "code": "ESTG2004",
+    "name": "ESTADÍSTICA",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 3,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "CCPG1043",
+        "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:IDIG2012",
+    "code": "IDIG2012",
+    "name": "COMUNICACIÓN",
+    "unit": "BASICO",
+    "credits": 6,
+    "grid": {
+      "row": 2,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": 6
+  },
+  {
+    "id": "LI003:ARQG2022",
+    "code": "ARQG2022",
+    "name": "BIOARQUEOLOGÍA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 5,
+      "col": 2
+    },
+    "requirements": [
+      {
+        "code": "ARQG2020",
+        "name": "ANTROPOLOGÍA BIOLÓGICA",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARQG2030",
+        "name": "CAMPO DE ARQUEOLOGÍA I",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:MATG2007",
+    "code": "MATG2007",
+    "name": "MATEMÁTICAS",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 1,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:CCPG1043",
+    "code": "CCPG1043",
+    "name": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 2,
+      "col": 1
+    },
+    "requirements": [
+      {
+        "code": "MATG2007",
+        "name": "MATEMÁTICAS",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ADMG1005",
+    "code": "ADMG1005",
+    "name": "EMPRENDIMIENTO E INNOVACIÓN",
+    "unit": "BASICO",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 1
+    },
+    "requirements": [],
+    "approved_count_requirement": 15
+  },
+  {
+    "id": "LI003:ARQG2024",
+    "code": "ARQG2024",
+    "name": "MATERIA INTEGRADORA EN ARQUEOLOGÍA",
+    "unit": "INTEGRACION",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARQG2023",
+        "name": "PROYECTOS DE INVESTIGACIÓN ARQUEOLÓGICA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2023",
+    "code": "ARQG2023",
+    "name": "PROYECTOS DE INVESTIGACIÓN ARQUEOLÓGICA",
+    "unit": "PROFESIONAL",
+    "credits": 6,
+    "grid": {
+      "row": 7,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARQG2036",
+        "name": "CAMPO DE ANTROPOLOGÍA SOCIOCULTURAL I",
+        "type": "PRE-REQUISITO"
+      },
+      {
+        "code": "ARQG2028",
+        "name": "CAMPO DE ANTROPOLOGÍA SOCIOCULTURAL II",
+        "type": "CO-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2021",
+    "code": "ARQG2021",
+    "name": "ARQUEOLOGÍA DE MESOAMÉRICA",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 4,
+      "col": 4
+    },
+    "requirements": [
+      {
+        "code": "ARQG2035",
+        "name": "ARQUEOLOGÍA SOCIAL LATINOAMERICANA",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:ARQG2025",
+    "code": "ARQG2025",
+    "name": "ARQUEOLOGÍA DEL ECUADOR II",
+    "unit": "PROFESIONAL",
+    "credits": 9,
+    "grid": {
+      "row": 3,
+      "col": 3
+    },
+    "requirements": [
+      {
+        "code": "ARQG2033",
+        "name": "ARQUEOLOGÍA DEL ECUADOR I",
+        "type": "PRE-REQUISITO"
+      }
+    ],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:CPI:37",
+    "code": null,
+    "name": "PRACTICAS DE SERVICIO COMUNITARIO",
+    "unit": "CPI",
+    "credits": 6,
+    "grid": {
+      "row": 5,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:CPI:42",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 6,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:CPI:43",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE ARTES, DEPORTE E IDIOMA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 6,
+      "col": 3
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:CPI:45",
+    "code": null,
+    "name": "COMPLEMENTARIAS DE HUMANISTICA",
+    "unit": "CPI",
+    "credits": 3,
+    "grid": {
+      "row": 6,
+      "col": 5
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:CPI:58",
+    "code": null,
+    "name": "ITINERARIO",
+    "unit": "CPI",
+    "credits": 9,
+    "grid": {
+      "row": 8,
+      "col": 2
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  },
+  {
+    "id": "LI003:CPI:71",
+    "code": null,
+    "name": "PRACTICAS PREPROFESIONALES EMPRESARIALES",
+    "unit": "CPI",
+    "credits": 5,
+    "grid": {
+      "row": 8,
+      "col": 7
+    },
+    "requirements": [],
+    "approved_count_requirement": null
+  }
+]

@@ -1,4 +1,172 @@
 [
-  { "code": "CI013", "name": "Computación" },
-  { "code": "CI009", "name": "Logistica Y Transporte" }
+  {
+    "code": "CI013",
+    "name": "Computación",
+    "faculty": "FIEC"
+  },
+  {
+    "code": "CI014",
+    "name": "Electricidad",
+    "faculty": "FIEC"
+  },
+  {
+    "code": "CI015",
+    "name": "Electrónica y Automatización",
+    "faculty": "FIEC"
+  },
+  {
+    "code": "CI017",
+    "name": "Telecomunicaciones",
+    "faculty": "FIEC"
+  },
+  {
+    "code": "CI018",
+    "name": "Telemática",
+    "faculty": "FIEC"
+  },
+  {
+    "code": "CI029",
+    "name": "Ciencia de Datos e Inteligencia Artificial [Virtual]",
+    "faculty": "FIEC"
+  },
+  {
+    "code": "CI030",
+    "name": "Ciencia de Datos e Inteligencia Artificial [Hibrido]",
+    "faculty": "FIEC"
+  },
+  {
+    "code": "CI001",
+    "name": "Ingeniería Industrial",
+    "faculty": "FIMCP"
+  },
+  {
+    "code": "CI007",
+    "name": "Mecánica",
+    "faculty": "FIMCP"
+  },
+  {
+    "code": "CI020",
+    "name": "Alimentos",
+    "faculty": "FIMCP"
+  },
+  {
+    "code": "CI021",
+    "name": "Materiales",
+    "faculty": "FIMCP"
+  },
+  {
+    "code": "CI022",
+    "name": "Mecatrónica",
+    "faculty": "FIMCP"
+  },
+  {
+    "code": "CI003",
+    "name": "Minas",
+    "faculty": "FICT"
+  },
+  {
+    "code": "CI004",
+    "name": "Petróleos",
+    "faculty": "FICT"
+  },
+  {
+    "code": "CI005",
+    "name": "Ingeniería Civil",
+    "faculty": "FICT"
+  },
+  {
+    "code": "CI012",
+    "name": "Geología",
+    "faculty": "FICT"
+  },
+  {
+    "code": "CI002",
+    "name": "Ingeniería Química",
+    "faculty": "FCNM"
+  },
+  {
+    "code": "CI008",
+    "name": "Estadística",
+    "faculty": "FCNM"
+  },
+  {
+    "code": "CI009",
+    "name": "Logística y Transporte",
+    "faculty": "FCNM"
+  },
+  {
+    "code": "CI010",
+    "name": "Matemática",
+    "faculty": "FCNM" 
+  },
+  {
+    "code": "LI007",
+    "name": "Administración de Empresas",
+    "faculty": "FCSH"
+  },
+  {
+    "code": "LI003",
+    "name": "Arqueología",
+    "faculty": "FCSH"
+  },
+  {
+    "code": "LI001",
+    "name": "Auditoría y Control de Gestión",
+    "faculty": "FCSH"
+  },
+  {
+    "code": "LI002",
+    "name": "Economía",
+    "faculty": "FCSH"
+  },
+  {
+    "code": "LI009",
+    "name": "Turismo",
+    "faculty": "FCSH"
+  },
+  {
+    "code": "LI005",
+    "name": "Diseño Gráfico",
+    "faculty": "FADCOM"
+  },
+  {
+    "code": "LI004",
+    "name": "Diseño de Productos",
+    "faculty": "FADCOM"
+  },
+  {
+    "code": "LI006",
+    "name": "Producción para Medios de Comunicación",
+    "faculty": "FADCOM"
+  },
+  {
+    "code": "CI011",
+    "name": "Biología",
+    "faculty": "FCV"
+  },
+  {
+    "code": "CI026",
+    "name": "Ingeniería Agrícola y Biológica",
+    "faculty": "FCV"  
+  },
+  {
+    "code": "LI008",
+    "name": "Nutrición y Dietética",
+    "faculty": "FCV"     
+  },
+  {
+    "code": "CI024",
+    "name": "Acuicultura",
+    "faculty": "FIMCM"
+  },
+  {
+    "code": "CI023",
+    "name": "Ingeniería Naval",
+    "faculty": "FIMCM"
+  },
+  {
+    "code": "CI025",
+    "name": "Oceanografía",
+    "faculty": "FIMCM"  
+  }
 ]
