@@ -17,7 +17,7 @@ export type CareerIndexItem = {
   faculty: string
 };
 
-const DATA_BASE = import.meta.env.VITE_DATA_BASE ?? ''; 
+const DATA_BASE = import.meta.env.VITE_DATA_BASE ?? 'https://dsebastiansr.github.io/malla-interactiva-espol'; 
 // hoy: "" -> usa /public
 // mañana: "https://cdn.tudominio.com"
 
