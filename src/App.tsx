@@ -22,9 +22,9 @@ export default function App() {
   );
 
   return (
-    <div className="text-white min-h-screen bg-[#1c1c1d] px-12 py-10 flex flex-col items-center max-md:p-6 gap-6">
+    <div className="text-white min-h-screen bg-[#1c1c1d] px-12 py-10 flex flex-col items-center max-md:p-4 gap-6">
       <header className="bg-[#2c2c2d] w-full p-6 max-md:p-6 rounded-[55px]  flex max-md:flex-col gap-4 items-center justify-between flex-wrap">
-        <div className='flex items-center gap-3 max-md:flex-wrap'>
+        <div className="flex items-center gap-3 max-md:flex-wrap">
           <h1 className="text-3xl font-extrabold max-md:text-balance max-md:text-center">
             Malla Interactiva ESPOL
           </h1>
@@ -44,7 +44,7 @@ export default function App() {
           </select>
 
           <select
-            className="border-2 px-3 py-2 ring-0 outline-0 border-[#818181] text-white bg-[#1c1c1d]/50 rounded-full truncate max-md:w-full"
+            className="border-2 px-3 py-2 ring-0 outline-0 border-[#818181] text-white bg-[#1c1c1d]/50 rounded-full w-64 truncate max-md:w-full"
             value={career}
             onChange={(e) => setCareer(e.target.value)}
           >
@@ -67,39 +67,32 @@ export default function App() {
         </div>
       </header>
 
-      <div className="w-full flex flex-col gap-2">
-        <div className="w-full flex items-center gap-8 justify-start pl-12 max-md:pr-0 max-md:justify-center max-md:flex-wrap max-md:gap-4">
-          <div className="flex items-center gap-1">
-            <div className="h-3 w-3 rounded-full bg-basic-bg border-2 border-basic-stroke" />
-            <span className="text-sm text-basic-text">Básico</span>
+      <div className="max-[1300px]:h-svh max-md:[calc(100svh-5%)] flex items-center h-full w-full overflow-auto sb sb-neutral rounded-[55px] touch-pan-x touch-pan-y overscroll-contain">
+        {!courses ? (
+          <div className="h-full w-full flex items-center justify-center bg-[#818181]/15">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="animate-spin h-8 w-8"
+              width="128"
+              height="128"
+              viewBox="0 0 24 24"
+            >
+              <g fill="#ffffff">
+                <path
+                  fill-rule="evenodd"
+                  d="M12 19a7 7 0 1 0 0-14a7 7 0 0 0 0 14m0 3c5.523 0 10-4.477 10-10S17.523 2 12 2S2 6.477 2 12s4.477 10 10 10"
+                  clip-rule="evenodd"
+                  opacity=".2"
+                />
+                <path d="M2 12C2 6.477 6.477 2 12 2v3a7 7 0 0 0-7 7z" />
+              </g>
+            </svg>
           </div>
-
-          <div className="flex items-center gap-1">
-            <div className="h-3 w-3 rounded-full bg-professional-bg border-2 border-professional-stroke" />
-            <span className="text-sm text-professional-text">Profesional</span>
-          </div>
-
-          <div className="flex items-center gap-1">
-            <div className="h-3 w-3 rounded-full bg-integrative-bg border-2 border-integrative-stroke" />
-            <span className="text-sm text-integrative-text">Integración</span>
-          </div>
-
-          <div className="flex items-center gap-1">
-            <div className="h-3 w-3 rounded-full bg-cpi-bg border-2 border-cpi-stroke" />
-            <span className="text-sm text-cpi-text">
-              Complementarias, Prácticas, Itinerario
-            </span>
-          </div>
-        </div>
-
-        <div className="w-full">
-          {!courses ? (
-            <div className="opacity-70">Cargando malla…</div>
-          ) : (
-            <MeshGrid />
-          )}
-        </div>
+        ) : (
+          <MeshGrid />
+        )}
       </div>
+
     </div>
   );
 }

@@ -9,6 +9,55 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+    /* Firefox */
+  .sb {
+    scrollbar-width: thin;
+    scrollbar-color: var(--sb-thumb) var(--sb-track);
+  }
+
+  .ios-smooth {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Chromium/Safari */
+  .sb::-webkit-scrollbar {
+    width: var(--sb-size);
+    height: var(--sb-size);
+  }
+  .sb::-webkit-scrollbar-track {
+    background: var(--sb-track);
+    border-radius: var(--sb-radius);
+  }
+  .sb::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb);
+    border-radius: var(--sb-radius);
+    border: var(--sb-border) solid var(--sb-track); /* efecto “padding” */
+
+  }
+  .sb::-webkit-scrollbar-thumb:hover {
+    background: var(--sb-thumb-hover);
+  }
+
+  /* Preset oscuro (ajusta colores a tu gusto) */
+  .sb-neutral {
+    --sb-size: 10px;
+    --sb-radius: 999px;
+    --sb-border: 2px;
+    --sb-track: rgba(255,255,255,.08);
+    --sb-thumb: rgba(255,255,255,.22);
+    --sb-thumb-hover: rgba(255,255,255,.32);
+  }
+
+  /* Preset claro */
+  .sb-light {
+    --sb-size: 10px;
+    --sb-radius: 999px;
+    --sb-border: 2px;
+    --sb-track: rgba(0,0,0,.06);
+    --sb-thumb: rgba(0,0,0,.22);
+    --sb-thumb-hover: rgba(0,0,0,.32);
+  }
+
   --basic-bg: #474747;
   --basic-stroke: #777777;
   --basic-text: #c7c7c7;

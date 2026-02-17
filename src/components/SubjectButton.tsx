@@ -16,7 +16,7 @@ export default function SubjectButton({ c }: { c: Course }) {
   const isPassed = info.status === "AP";
 
   const base =
-    'relative overflow-hidden rounded-full py-1 px-4 h-full w-full border-2 text-balance font-semibold transition-all flex flex-col items-center justify-center text-center text-[12px] text-balance';
+    'relative overflow-hidden rounded-full py-1 px-4 h-full w-full border-2 font-semibold transition-all flex flex-col items-center justify-center text-center text-[11px] text-balance';
 
   return (
     <button
@@ -25,7 +25,7 @@ export default function SubjectButton({ c }: { c: Course }) {
       className={`
         ${base}
         ${unitClass(c.unit)}
-        ${disabled ? 'opacity-25' : 'cursor-pointer'}
+        ${disabled ? 'opacity-25' : `cursor-pointer`}
       `}
       title={
         disabled

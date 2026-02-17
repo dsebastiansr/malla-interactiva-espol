@@ -34,74 +34,82 @@ export function MeshGrid() {
   const rows = isMobile ? maxCol : maxRow;
   const cols = isMobile ? maxRow : maxCol;
 
+  const LAST_GAP = 20;
+  const lastMobileRow = cols + 1;
+
   const extraSize = 16; // px (ancho de columna en desktop / alto de fila en mobile)
 
   return (
-    <div className="w-full flex items-center justify-start bg-[#818181]/15 rounded-[55px] overflow-hidden">
-      <div
-        className="overflow-auto grid gap-3 p-6"
-        style={{
-          gridTemplateColumns: isMobile
-            ? `repeat(${rows}, minmax(200px, 1fr))`
-            : `${extraSize}px repeat(${cols}, minmax(200px, 1fr))`,
+    <div className="h-full w-full bg-[#818181]/15">
+      <div className=' flex h-full w-full overflow-auto'>
+        <div
+          className="h-max w-max grid gap-3 m-5"
+          style={{
+            gridTemplateColumns: isMobile
+              ? `repeat(${rows}, minmax(180px, 1fr))`
+              : `${extraSize}px repeat(${cols}, minmax(180px, 1fr))`,
 
-          gridTemplateRows: isMobile
-            ? `${extraSize}px repeat(${cols}, minmax(85px, 1fr))`
-            : `repeat(${rows}, minmax(85px, 1fr))`,
-        }}
-      >
-        {!isMobile && (
-          <div
-            style={{
-              gridColumn: 1,
-              gridRow: `1 / span ${rows}`,
-            }}
-            className="flex flex-col items-center justify-between"
-          >
-            {Array.from({ length: rows }, (_, i) => (
-              <div key={i} className="flex flex-col items-center justify-center h-full  w-full text-xs opacity-70 leading-none">
+            gridTemplateRows: isMobile
+              ? `${extraSize}px repeat(${rows}, minmax(85px, 1fr))`
+              : `repeat(${cols}, minmax(85px, 1fr))`,
+          }}
+        >
+          {!isMobile && (
+            <div
+              style={{
+                gridColumn: 1,
+                gridRow: `1 / span ${rows}`,
+              }}
+              className="flex flex-col items-center justify-between"
+            >
+              {Array.from({ length: rows }, (_, i) => (
+                <div key={i} className="flex flex-col items-center justify-center h-full  w-full text-xs opacity-70 leading-none">
+                  {i + 1}
+                </div>
+              ))}
+            </div>
+          )}
+
+          {isMobile &&
+            Array.from({ length: cols }, (_, i) => (
+              <div
+                key={`h-${i}`}
+                style={{ gridRow: 1, gridColumn: i + 1 }}
+                className="flex flex-col items-center justify-center h-full  w-full text-xs opacity-70 leading-none"
+              >
                 {i + 1}
               </div>
             ))}
-          </div>
-        )}
 
-        {isMobile &&
-          Array.from({ length: cols }, (_, i) => (
-            <div
-              key={`h-${i}`}
-              style={{ gridRow: 1, gridColumn: i + 1 }}
-              className="flex flex-col items-center justify-center h-full  w-full text-xs opacity-70 leading-none"
-            >
-              {i + 1}
-            </div>
-          ))}
+          {courses.map((c) => {
+            const r = c.grid.row ?? 1;
+            const col = c.grid.col ?? 1;
 
-        {courses.map((c) => {
-          const r = c.grid.row ?? 1;
-          const col = c.grid.col ?? 1;
+            if (isMobile) {
+              const gridRow = col + 1;
+              const gridColumn = r;
 
-          if (isMobile) {
-            const gridRow = col + 1;
-            const gridColumn = r;
+              const addBottom = gridRow === lastMobileRow;
+
+              return (
+                <div key={c.id} style={{ gridRow, gridColumn, paddingBottom: addBottom ? LAST_GAP : 0 }}>
+                  <SubjectButton c={c} />
+                </div>
+              );
+            }
+
+            const gridRow = r;
+            const gridColumn = col + 1;
 
             return (
-              <div key={c.id} style={{ gridRow, gridColumn }}>
+              <div key={c.id} style={{ gridRow, gridColumn}}>
                 <SubjectButton c={c} />
               </div>
             );
-          }
-
-          const gridRow = r;
-          const gridColumn = col + 1;
-
-          return (
-            <div key={c.id} style={{ gridRow, gridColumn }}>
-              <SubjectButton c={c} />
-            </div>
-          );
-        })}
+          })}
+        </div>
       </div>
+
     </div>
   );
 }
